@@ -1,14 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './components/Layout';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        My first page
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
