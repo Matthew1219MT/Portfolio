@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a191387f.css",
-    "main.js": "/Portfolio/static/js/main.57b3e510.js",
+    "main.js": "/Portfolio/static/js/main.a83dfc08.js",
     "reactPlayerPreview.js": "/Portfolio/static/js/reactPlayerPreview.4c4eb6ad.chunk.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/StudyWar.png": "/Portfolio/static/media/StudyWar.889c70930ea80b0b87cc.png",
+    "static/media/IOSCalculator.png": "/Portfolio/static/media/IOSCalculator.78b28b7f54e6dc7dacbf.png",
     "static/media/DriveMaster.png": "/Portfolio/static/media/DriveMaster.a10b6e92ae2f5093b0cb.png",
     "static/media/LibraryManagementSystem.png": "/Portfolio/static/media/LibraryManagementSystem.2ae2b78ee7f66bd16712.png",
+    "static/media/AndroidApp.png": "/Portfolio/static/media/AndroidApp.87c064e5c9149b6fceaf.png",
     "static/media/LostAndFound.png": "/Portfolio/static/media/LostAndFound.43d70630fd06763e20d6.png",
     "index.html": "/Portfolio/index.html",
     "main.a191387f.css.map": "/Portfolio/static/css/main.a191387f.css.map",
-    "main.57b3e510.js.map": "/Portfolio/static/js/main.57b3e510.js.map",
+    "main.a83dfc08.js.map": "/Portfolio/static/js/main.a83dfc08.js.map",
     "reactPlayerPreview.4c4eb6ad.chunk.js.map": "/Portfolio/static/js/reactPlayerPreview.4c4eb6ad.chunk.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a191387f.css",
-    "static/js/main.57b3e510.js"
+    "static/js/main.a83dfc08.js"
   ]
 }
