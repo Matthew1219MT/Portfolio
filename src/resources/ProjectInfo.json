@@ -5,5 +5,12 @@
         "video": "https://youtu.be/9y5wvXi1GQc",
         "content": "Thie is a multiplayer driving simulator",
         "img": "DriveMaster.png"
+    },
+    {
+        "path": "/study-war",
+        "title": "2D Roguelike game",
+        "video": "https://youtu.be/atSQNczFSOY",
+        "content": "This is a Rougelike game",
+        "img": "DriveMaster.png"
     }
 ]
