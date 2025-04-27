@@ -1,5 +1,7 @@
 import ReactPlayer from 'react-player/youtube';
-import './ProjectShowcase.css'
+import './ProjectShowcase.css';
+import { useEffect } from 'react';
+import { isMobile } from 'react-device-detect';
 
 type Props = {
     title: string,
@@ -8,15 +10,16 @@ type Props = {
 }
 
 const ProjectShowcase:React.FC<Props> = ({title, video, content}) => {
+
     return <div className='project-showcase-container'>
         <div className='project-showcase-content'>
-            {video && <ReactPlayer url={video} width='100%' controls={true}/>}
+            {video && <ReactPlayer url={video} controls={true} width="100%"/>}
             <p className='project-showcase-title'>{title}</p>
-            <p>{content}</p>
+            <div>{content}</div>
         </div>
-        <div className='project-showcase-project-list'>
-            d
-        </div>
+        {!isMobile && <div className='project-showcase-project-list'>
+            Other Projects (Unfinished)
+        </div>}
     </div>
 }
 

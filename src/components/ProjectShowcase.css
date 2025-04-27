@@ -20,12 +20,12 @@
     flex-direction: column;
 }
 
-.project-showcase-project-list {
-    flex: 1;
-}
-
 .project-showcase-video-player {
     border-radius: 10px;
+}
+
+.project-showcase-project-list {
+    flex: 1;
 }
 
 .project-showcase-title {
@@ -33,3 +33,4 @@
     border-bottom: 1px solid var(--light-yellow);
     padding: 10px 0px 10px 0px;
 }
+

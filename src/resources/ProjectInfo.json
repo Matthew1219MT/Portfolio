@@ -11,6 +11,20 @@
         "title": "2D Roguelike game",
         "video": "https://youtu.be/atSQNczFSOY",
         "content": "This is a Rougelike game",
-        "img": "DriveMaster.png"
+        "img": "StudyWar.png"
+    },
+    {
+        "path": "/library-admin-system",
+        "title": "Java Library Management System Demonstration",
+        "video": "https://youtu.be/8bH0QCbVa1Y",
+        "content": "This is a Library Management System, written in Java and OOP",
+        "img": "LibraryManagementSystem.png"
+    },
+    {
+        "path": "/online-lost-and-found-system",
+        "title": "Online Lost and Found System",
+        "video": "https://youtu.be/-CQODUmZ-Hs",
+        "content": "This is a Online Lost and Found System, written in HTML, PHP, JavaScript and MySQL",
+        "img": "LostAndFound.png"
     }
 ]
