@@ -30,8 +30,8 @@ const Homepage: React.FC = () => {
     const ProjectList = shuffle(ProjectsInfo);
 
     return (<div className='homepage-container'>
-        {ProjectList.map((project) => {
-            return <Card sx={{ maxWidth: 345 }} className='homepage-card'>
+        {ProjectList.map((project, index) => {
+            return <Card sx={{ maxWidth: 345 }} className='homepage-card' key={index}>
             <CardActionArea onClick={()=>{navigate(project.path)}}>
               <CardMedia
                 component="img"

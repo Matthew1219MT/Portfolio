@@ -17,8 +17,8 @@ const Foundation: React.FC = () => {
                     <Routes>
                         <Route path="/" element={<Homepage/>}/>
                         {/* <Route path="/test" element={<ProjectShowcase title="Welfare System of Europe" video="https://youtu.be/5QMFE3sMulw" content="NA"/>}></Route> */}
-                        {ProjectsInfo.map((project) => {
-                            return <Route path={project.path} element={<ProjectShowcase title={project.title} video={project.video} content={project.content}/>}></Route>
+                        {ProjectsInfo.map((project, index) => {
+                            return <Route key={index} path={project.path} element={<ProjectShowcase title={project.title} video={project.video} content={project.content}/>}></Route>
                         })}
                     </Routes>
                 </BrowserRouter>

@@ -26,5 +26,19 @@
         "video": "https://youtu.be/-CQODUmZ-Hs",
         "content": "This is a Online Lost and Found System, written in HTML, PHP, JavaScript and MySQL",
         "img": "LostAndFound.png"
+    },
+    {
+        "path": "/ios-calculator",
+        "title": "IOS Calculator",
+        "video": "https://youtu.be/UclXB3TGCxk",
+        "content": "This is an IOS calculator app, supports binary, decimal and hexdecminal calculation and random value generation ",
+        "img": "IOSCalculator.png"
+    },
+    {
+        "path": "/android-app",
+        "title": "Sandbox Mini Game",
+        "video": "https://youtu.be/JPNvxK6WqMM",
+        "content": "Allows user to insert and delete icons which moves around the screen and bounce back upon hitting the edge of the screen",
+        "img": "AndroidApp.png"
     }
 ]
