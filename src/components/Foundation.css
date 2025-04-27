@@ -1,0 +1,38 @@
+:root {
+    --dark-purple: rgb(70, 0, 70);
+    --light-yellow: rgb(255, 255, 135);
+}
+
+a {
+    text-decoration: none !important;   
+    color: white;
+}
+
+.foundation-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.foundation-header, .foundation-body {
+    border: 1px solid var(--light-yellow); 
+    border-radius: 10px;
+    background-color:#282828;
+    color: white;
+}
+
+.foundation-header {
+    height: 5vh;
+    min-height: 50px;
+    margin: 5px 5px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}
+
+.foundation-body {
+    min-height: 94vh;
+    margin: 0px 5px 5px 5px;
+    padding: 10px;
+}

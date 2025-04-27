@@ -1,0 +1,35 @@
+:root {
+    --dark-purple: rgb(70, 0, 70);
+    --light-yellow: rgb(255, 255, 135);
+}
+
+.project-showcase-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-showcase-content, .project-showcase-project-list {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.project-showcase-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-showcase-project-list {
+    flex: 1;
+}
+
+.project-showcase-video-player {
+    border-radius: 10px;
+}
+
+.project-showcase-title {
+    border-top: 1px solid var(--light-yellow);
+    border-bottom: 1px solid var(--light-yellow);
+    padding: 10px 0px 10px 0px;
+}
