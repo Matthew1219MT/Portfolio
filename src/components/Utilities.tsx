@@ -7,3 +7,11 @@ export const CopyToClipboard = async (text: string) => {
         return true
     }
 }
+
+export type ProjectInfo = {
+    path: string; 
+    title: string; 
+    video?: string; 
+    content: string; 
+    img: string;
+}

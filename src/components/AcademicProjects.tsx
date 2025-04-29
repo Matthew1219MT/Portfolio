@@ -7,14 +7,7 @@ import CardActionArea from '@mui/material/CardActionArea';
 import { useNavigate } from 'react-router-dom';
 import './AcademicProjects.css';
 import { useState } from 'react';
-
-type ProjectInfo = {
-    path: string; 
-    title: string; 
-    video?: string; 
-    content: string; 
-    img: string;
-}
+import { ProjectInfo } from './Utilities';
 
 const AcademicProjects: React.FC = () => {
 
