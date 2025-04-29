@@ -1,7 +1,7 @@
 import { Avatar, Chip, Divider, Card, Typography, CardContent } from "@mui/material";
 import { message } from "antd";
 import './AboutMe.css';
-import { GitHub, LinkedIn, Mail } from "@mui/icons-material";
+import { Flag, GitHub, LinkedIn, Mail } from "@mui/icons-material";
 import { ReactNode } from "react";
 
 const AboutMe: React.FC = () => {
@@ -56,9 +56,9 @@ const AboutMe: React.FC = () => {
             <Typography gutterBottom sx={{ color: 'white', fontSize: 18 }}>
                 {date}
             </Typography>
-            <Typography gutterBottom sx={{ color: 'white', fontSize: 16 }}>
+            <div style={{ color: 'white', fontSize: '16px'}}>
                 {content}
-            </Typography>
+            </div>
         </Card>);
     }
 
@@ -72,11 +72,11 @@ const AboutMe: React.FC = () => {
             <Typography sx={{ color: 'white', fontSize: 22, fontWeight: 700 }}>
                 <u>{category}</u>
             </Typography>
-            <Typography className="about-me-sub-container">
+            <div className="about-me-container">
                 {skills.map((skill, index)=>{
                     return <Chip className='about-me-skill-chip' label={skill} key={index}/>
                 })}
-            </Typography>
+            </div>
         </Card>);
     }
 
@@ -87,9 +87,10 @@ const AboutMe: React.FC = () => {
             <div className='about-me-sub-container'>
                 <h1>Chun Hei Tse</h1>
                 <div className='about-me-container'>
-                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Mail/>&nbsp;Matttse1219@gmail.com</div>} onClick={() => {CopyHandler('Matttse1219@gmail.com')}}></Chip>
-                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><LinkedIn/>&nbsp;Chun Hei Tse</div>} onClick={() => {window.open('https://www.linkedin.com/in/chun-hei-tse-7a8785300/', "_blank", "noreferrer")}}></Chip>
-                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><GitHub/>&nbsp;Matthew1219MT</div>} onClick={() => {window.open('https://github.com/Matthew1219MT', "_blank", "noreferrer")}}></Chip>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Mail/>&nbsp;Matttse1219@gmail.com</div>} onClick={() => {CopyHandler('Matttse1219@gmail.com')}}/>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><LinkedIn/>&nbsp;Chun Hei Tse</div>} onClick={() => {window.open('https://www.linkedin.com/in/chun-hei-tse-7a8785300/', "_blank", "noreferrer")}}/>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><GitHub/>&nbsp;Matthew1219MT</div>} onClick={() => {window.open('https://github.com/Matthew1219MT', "_blank", "noreferrer")}}/>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label' onClick={() => {messageApi.open({ type: 'info', content: 'Hello ! 你食咗飯未 ?'});}}><Flag/>&nbsp;Hong Kong Citizen</div>}/>
                 </div>
             </div>
         </div>

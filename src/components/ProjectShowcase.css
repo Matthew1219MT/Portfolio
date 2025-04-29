@@ -19,6 +19,7 @@
     flex: 3;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .project-showcase-video-player {
@@ -34,7 +35,7 @@
 
 .project-showcase-project-card {
     width: 100%;
-    height: 250px ;
+    min-height: 250px ;
     background-color: var(--grey) !important;
 }
 
@@ -43,8 +44,26 @@
 }
 
 .project-showcase-title {
-    border-top: 1px solid var(--light-yellow);
-    border-bottom: 1px solid var(--light-yellow);
-    padding: 10px 0px 10px 0px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
+.project-showcase-divider {
+    margin: 20px 0px 20px 0px;
+    background-color: var(--light-yellow);
+}
+
+.project-showcase-tag-list {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.project-showcase-tool-chip, .project-showcase-language-chip {
+    color: black !important;
+    background-color: var(--light-yellow)!important;
+}
+
+.project-showcase-tool-chip:hover, .project-showcase-language-chip:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+}

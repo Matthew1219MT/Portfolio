@@ -14,10 +14,27 @@
 
 .academic-projects-card {
     width: 350px;
-    height: 250px;
+    min-height: 250px;
     background-color: var(--grey) !important;
 }
 
 .academic-projects-card:hover {
     box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+}
+
+.academic-projects-chip-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.academic-projects-divider {
+    margin: 20px 0px 20px 0px;
+    background-color: var(--light-yellow);
+}
+
+.academic-projects-tool-chip, .academic-projects-language-chip {
+    color: var(--light-yellow)!important;
+    background-color: var(--dark-grey)!important;
 }

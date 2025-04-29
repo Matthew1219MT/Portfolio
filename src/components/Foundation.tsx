@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider, useNavigate } from "react-router-dom";
+import { HashRouter, Routes, Route, useNavigate } from "react-router-dom";
 import AcademicProjects from "./AcademicProjects";
 import './Foundation.css';
 import ProjectShowcase from "./ProjectShowcase";
@@ -15,16 +15,16 @@ const Foundation: React.FC = () => {
                 <i>Created by Matthew Chun Hei Tse</i>
             </div>
             <div className='foundation-body'>
-                <BrowserRouter basename="Portfolio">
+                <HashRouter>
                     <Routes>
                         <Route path="/" element={<Homepage/>}/>
                         <Route path="/about-me" element={<AboutMe/>}/>
                         <Route path="/academic-projects" element={<AcademicProjects/>}/>
                         {ProjectsInfo.map((project, index) => {
-                            return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase title={project.title} video={project.video} content={project.content}/>}></Route>
+                            return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase project={project}/>}></Route>
                         })}
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
             </div>
         </div>
     )

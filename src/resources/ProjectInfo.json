@@ -1,79 +1,101 @@
 [
     {
         "path": "/driving-simulator",
-        "title": "Master Drive",
+        "title": "Master Drive - 3D Driving Simulator",
         "video": "https://youtu.be/9y5wvXi1GQc",
         "content": "Thie is a multiplayer driving simulator",
-        "img": "DriveMaster.png"
+        "img": "DriveMaster.png",
+        "tools": ["Godot", "GitHub"],
+        "languages": ["GDScript"]
     },
     {
         "path": "/study-war",
-        "title": "Study War",
+        "title": "Study War - 2D Rougelike game",
         "video": "https://youtu.be/atSQNczFSOY",
         "content": "This is a Rougelike game",
-        "img": "StudyWar.png"
+        "img": "StudyWar.png",
+        "tools": ["Unity", "VS Code"],
+        "languages": ["C#"]
     },
     {
         "path": "/library-admin-system",
         "title": "Library Management System",
         "video": "https://youtu.be/8bH0QCbVa1Y",
         "content": "This is a Library Management System, written in Java and OOP",
-        "img": "LibraryManagementSystem.png"
+        "img": "LibraryManagementSystem.png",
+        "tools": ["Eclipse"],
+        "languages": ["Java"]
     },
     {
         "path": "/online-lost-and-found-system",
         "title": "Online Lost and Found System",
         "video": "https://youtu.be/-CQODUmZ-Hs",
         "content": "This is a Online Lost and Found System, written in HTML, PHP, JavaScript and MySQL",
-        "img": "LostAndFound.png"
+        "img": "LostAndFound.png",
+        "tools": ["VS Code"],
+        "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"]
     },
     {
         "path": "/ios-calculator",
         "title": "IOS Calculator",
         "video": "https://youtu.be/UclXB3TGCxk",
         "content": "This is an IOS calculator app, supports binary, decimal and hexdecminal calculation and random value generation ",
-        "img": "IOSCalculator.png"
+        "img": "IOSCalculator.png",
+        "tools": ["XCode"],
+        "languages": ["Swift"]
     },
     {
         "path": "/android-app",
         "title": "Sandbox Mini Game",
         "video": "https://youtu.be/JPNvxK6WqMM",
         "content": "Allows user to insert and delete icons which moves around the screen and bounce back upon hitting the edge of the screen",
-        "img": "AndroidApp.png"
+        "img": "AndroidApp.png",
+        "tools": ["Android Studio"],
+        "languages": ["Java"]
     },
     {
         "path": "/infinity-glass",
         "title": "Infinity-glass PV",
         "video": "https://youtu.be/WjW6a7ZGf7A",
         "content": "This is a promotion video for promoting a conceptial product, the infinity-glass",
-        "img": "InfinityGlasses.png"
+        "img": "InfinityGlasses.png",
+        "tools": ["Davinci Resolve"],
+        "languages": []
     },
     {
         "path": "/welfare-system-of-europe",
         "title": "Welfare System of Europe",
         "video": "https://youtu.be/5QMFE3sMulw",
         "content": "This is a presentation video for an academic project, discussing the welfare system in the West",
-        "img": "WelfareSystem.png"
+        "img": "WelfareSystem.png",
+        "tools": ["Davinci Resolve"],
+        "languages": []
     },
     {
         "path": "/toohak-3D",
         "title": "Toohak 3D",
         "video": "https://youtu.be/6NQb9DSFOFw",
         "content": "This is a 3D Unity game",
-        "img": "Toohak3D.png"
+        "img": "Toohak3D.png",
+        "tools": ["Unity", "VS Code"],
+        "languages": ["C#"]
     }, 
     {
         "path": "/back-to-the-past",
         "title": "Back To The Past PV",
         "video": "https://youtu.be/lwVbI44llqI",
         "content": "This is a 3D animation, produced in Blender",
-        "img": "BackToThePast.png"
+        "img": "BackToThePast.png",
+        "tools": ["3D Blender", "Davinci Resolve"],
+        "languages": []
     },
     {
         "path": "/cobra-maneuver",
         "title": "Cobra maneuver",
         "video": "https://youtu.be/mwkN7_QfB78",
         "content": "This is a 3D animation, produced in 3DSMax",
-        "img": "CobraManeuver.png"
+        "img": "CobraManeuver.png",
+        "tools": ["3DS Max"],
+        "languages": []
     }
 ]

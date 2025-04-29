@@ -23,9 +23,8 @@
     background-color: var(--light-yellow) !important;
 }
 
-.about-me-skill-chip {
-    color: var(--light-yellow)!important;
-    background-color: var(--dark-grey) !important;
+.about-me-chip:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
 }
 
 .about-me-chip-label {
@@ -35,8 +34,9 @@
     align-items: center;
 }
 
-.about-me-chip:hover {
-    box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+.about-me-skill-chip {
+    color: var(--light-yellow)!important;
+    background-color: var(--dark-grey) !important;
 }
 
 .about-me-divider {
