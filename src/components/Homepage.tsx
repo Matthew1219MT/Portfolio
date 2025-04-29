@@ -1,52 +1,15 @@
-import ProjectsInfo from '../resources/ProjectInfo.json';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import CardActionArea from '@mui/material/CardActionArea';
-import { useNavigate } from 'react-router-dom';
-import './Homepage.css';
-
-type ProjectInfo = {
-    path: string; 
-    title: string; 
-    video?: string; 
-    content: string; 
-    img: string;
-}
+import { useNavigate } from "react-router-dom";
+import './Homepage.css'
 
 const Homepage: React.FC = () => {
 
     const navigate = useNavigate();
 
-    const shuffle = (array: ProjectInfo[]) => { 
-        for (let i = array.length - 1; i > 0; i--) { 
-          const j = Math.floor(Math.random() * (i + 1)); 
-          [array[i], array[j]] = [array[j], array[i]]; 
-        } 
-        return array; 
-      }; 
-
-    const ProjectList = shuffle(ProjectsInfo);
-
-    return (<div className='homepage-container'>
-        {ProjectList.map((project, index) => {
-            return <Card sx={{ maxWidth: 345 }} className='homepage-card' key={index}>
-            <CardActionArea onClick={()=>{navigate(project.path)}}>
-              <CardMedia
-                component="img"
-                height="140"
-                image={require(`../resources/${project.img}`)}
-                alt="project image"
-              />
-              <CardContent style={{backgroundColor: '#363636', color:'white'}}>
-                <Typography gutterBottom variant="h6" component="div">
-                  {project.title}
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        })}
+    return (<div className='home-page-container'>
+        <div className="home-page-title">Chun Hei Tse's</div>
+        <div className="home-page-content">Portfolio</div>
+        <button className="home-page-button" onClick={()=>{navigate('/about-me')}}>About Me</button>
+        <button className="home-page-button" onClick={()=>{navigate('/academic-projects')}}>Academic Projects</button>
     </div>);
 }
 

@@ -1,0 +1,23 @@
+:root {
+    --dark-purple: rgb(70, 0, 70);
+    --light-yellow: rgb(255, 255, 135);
+    --grey: #363636;
+}
+
+.academic-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 5px;
+}
+
+.academic-projects-card {
+    width: 350px;
+    height: 250px;
+    background-color: var(--grey) !important;
+}
+
+.academic-projects-card:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+}

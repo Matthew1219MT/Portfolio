@@ -1,12 +1,39 @@
-.homepage-container {
+:root {
+    --dark-purple: rgb(70, 0, 70);
+    --light-yellow: rgb(255, 255, 135);
+    --grey: #363636;
+    --dark-grey: #282828;
+}
+
+.home-page-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
     gap: 10px;
 }
 
-.homepage-card {
-    width: 350px;
-    height: 250px;
-    background-color: #363636 !important;
+.home-page-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--light-yellow);
+}
+
+.home-page-content {
+    font-size: 48px;
+    color: white;
+}
+
+.home-page-button {
+    text-align: center;
+    min-width: 30%;
+    border-radius: 25px;
+    background-color: var(--grey);
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.home-page-button:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow); 
 }

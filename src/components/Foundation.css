@@ -1,6 +1,7 @@
 :root {
     --dark-purple: rgb(70, 0, 70);
     --light-yellow: rgb(255, 255, 135);
+    --dark-grey: #282828;
 }
 
 a {
@@ -15,16 +16,16 @@ a {
 }
 
 .foundation-header, .foundation-body {
-    border: 1px solid var(--light-yellow); 
+    box-shadow: 0 0 5px 1px var(--light-yellow); 
     border-radius: 10px;
-    background-color:#282828;
+    background-color: var(--dark-grey);
     color: white;
 }
 
 .foundation-header {
     height: 5vh;
     min-height: 50px;
-    margin: 5px 5px 0px 5px;
+    margin: 5px 5px 5px 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +34,8 @@ a {
 
 .foundation-body {
     min-height: 94vh;
-    margin: 0px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
     padding: 10px;
     flex: 1;
+    display: flex;
 }

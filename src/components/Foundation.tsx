@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider, useNavigate } from "react-router-dom";
-import Homepage from "./Homepage";
+import AcademicProjects from "./AcademicProjects";
 import './Foundation.css';
 import ProjectShowcase from "./ProjectShowcase";
 import ProjectsInfo from '../resources/ProjectInfo.json';
+import Homepage from "./Homepage";
+import AboutMe from "./AboutMe";
 
 const Foundation: React.FC = () => {
 
@@ -16,9 +18,10 @@ const Foundation: React.FC = () => {
                 <BrowserRouter basename="Portfolio">
                     <Routes>
                         <Route path="/" element={<Homepage/>}/>
-                        {/* <Route path="/test" element={<ProjectShowcase title="Welfare System of Europe" video="https://youtu.be/5QMFE3sMulw" content="NA"/>}></Route> */}
+                        <Route path="/about-me" element={<AboutMe/>}/>
+                        <Route path="/academic-projects" element={<AcademicProjects/>}/>
                         {ProjectsInfo.map((project, index) => {
-                            return <Route key={index} path={project.path} element={<ProjectShowcase title={project.title} video={project.video} content={project.content}/>}></Route>
+                            return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase title={project.title} video={project.video} content={project.content}/>}></Route>
                         })}
                     </Routes>
                 </BrowserRouter>

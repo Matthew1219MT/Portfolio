@@ -1,0 +1,52 @@
+:root {
+    --dark-purple: rgb(70, 0, 70);
+    --light-yellow: rgb(255, 255, 135);
+    --grey: #363636;
+    --dark-grey: #282828;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.about-me-sub-container {
+    padding: 10px !important;
+}
+
+.about-me-chip {
+    color: black !important;
+    background-color: var(--light-yellow) !important;
+}
+
+.about-me-skill-chip {
+    color: var(--light-yellow)!important;
+    background-color: var(--dark-grey) !important;
+}
+
+.about-me-chip-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-chip:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+}
+
+.about-me-divider {
+    background-color: var(--light-yellow);
+}
+
+.about-me-card {
+    padding: 10px !important;
+}
+
+.about-me-card:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+}
