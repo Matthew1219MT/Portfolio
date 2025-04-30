@@ -1,11 +1,11 @@
 import ReactPlayer from 'react-player/youtube';
 import './ProjectShowcase.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import ProjectsInfo from '../resources/ProjectInfo.json';
 import { Project } from './Utilities';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardActionArea, CardContent, CardMedia, Typography, Divider, Chip } from '@mui/material';
+import { Card, CardActionArea, CardContent, CardMedia, Typography, Divider, Chip, Skeleton } from '@mui/material';
 
 type Props = {
     project: Project
@@ -16,6 +16,28 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
     const other_projects: Project[] = ProjectsInfo.filter((obj) => obj.title !== project.title);
 
     const navigate = useNavigate();
+
+    type SmartCardMediaProps = {
+        img: string
+    }
+
+    const SmartCardMedia: React.FC<SmartCardMediaProps> = ({img}) => {
+        const [loading, setLoading] = useState<boolean>(true);
+  
+        return <>
+          {loading && 
+            <Skeleton variant="rectangular" height={140} />
+          }
+          <CardMedia
+            style={loading ? { display: "none" } : {}}
+            component="img"
+            height="140"
+            image={require(`../resources/thumbnail/${img}`)}
+            alt="project image"
+            onLoad={()=>{setLoading(false)}}
+          />
+        </>
+      }
 
     return <div className='project-showcase-container'>
         <div className='project-showcase-content'>
@@ -43,12 +65,7 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
             {other_projects.map((project, index) => {
                 return <Card className='project-showcase-project-card' key={index}>
                 <CardActionArea onClick={()=>{navigate(`/academic-projects${project.path}`)}}>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image={require(`../resources/thumbnail/${project.img}`)}
-                    alt="project image"
-                  />
+                  <SmartCardMedia img={project.img}/>
                   <CardContent style={{backgroundColor: '#363636', color:'white'}}>
                     <Typography gutterBottom variant="h6" component="div">
                         {project.title}
