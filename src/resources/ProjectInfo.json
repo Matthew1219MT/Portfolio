@@ -1,9 +1,10 @@
 [
     {
         "path": "/driving-simulator",
-        "title": "Master Drive - 3D Driving Simulator",
+        "title": "Master Drive - 3D Multiplayer Driving Simulator",
         "video": "https://youtu.be/9y5wvXi1GQc",
-        "content": "Thie is a multiplayer driving simulator",
+        "description": "Master Drive is an online multiplayer driving simulator which aims to create a realistic driving simulation game for students to play and learn, and improve student’s traffic safety awareness and cultivate social responsibility. In Master Drive, other than operating a realistic vehicle, players have to obey the road laws while gaining points by driving towards a random generated zone.",
+        "content": ["Final year group project", "Leader of a 3 students group", "Major framework contructed with MVVM strucutre", "Responsible for game framework, player character, UI and HUD development"],
         "img": "DriveMaster.png",
         "tools": ["Godot", "GitHub"],
         "languages": ["GDScript"]
@@ -12,7 +13,8 @@
         "path": "/study-war",
         "title": "Study War - 2D Rougelike game",
         "video": "https://youtu.be/atSQNczFSOY",
-        "content": "This is a Rougelike game",
+        "description": "The key concept of Study War is to create a challenging and replayable experience that combines traditional roguelike game mechanics with retro-style pixel graphics. This includes designing the game with procedural generation, permanent death, resource management, exploration and discovery, and pixel art style features. Procedural generation is an important aspect of gameplay, as it generates random levels, enemies, props and other game elements to keep the gameplay fresh and engaging. This ensures that each game session is unique and challenging for the player. Permadeath is another important gameplay mechanic that creates high-stakes gameplay and encourages players to learn from their mistakes and improve their skills. This also adds to the replayability of the game as players will want to keep trying to go deeper into the dungeon or unlock more different weapons and monsters. Resource management requires players to carefully manage their resources and decide to enter all rooms to gain more currency or enter fewer rooms to maintain a healthy blood level. This can add a strategic aspect to the gameplay. Exploration and discovery are also essential, as they encourage players to explore and discover new areas, enemies, and props. This can generate new strategies and possibilities to help players advance further in the game. In short, the key concept of Study War is to create a challenging and immersive experience that encourages players to experiment, explore and improve their skills while combining classic roguelike gameplay mechanics with retro-style graphics.",
+        "content": ["Leader of a 4 students group", "Designed the algorithm for random map generation", "Responsible for game framework, player character, game environment and UI development"],
         "img": "StudyWar.png",
         "tools": ["Unity", "VS Code"],
         "languages": ["C#"]
@@ -21,7 +23,8 @@
         "path": "/library-admin-system",
         "title": "Library Management System",
         "video": "https://youtu.be/8bH0QCbVa1Y",
-        "content": "This is a Library Management System, written in Java and OOP",
+        "description": "This library admin system allows uer to add, edit and delete books record, user can also modify book status such as 'borrow', 'return' and 'reserve'. Advanced feature like title search and sorting by ISBN or title are also supported.",
+        "content": ["Group project, teamming with another student", "Developed with Object-Oriented Programming"],
         "img": "LibraryManagementSystem.png",
         "tools": ["Eclipse"],
         "languages": ["Java"]
@@ -30,7 +33,8 @@
         "path": "/online-lost-and-found-system",
         "title": "Online Lost and Found System",
         "video": "https://youtu.be/-CQODUmZ-Hs",
-        "content": "This is a Online Lost and Found System, written in HTML, PHP, JavaScript and MySQL",
+        "description": "This is a online lost and found system, offering login system for user to post their lost or found items.",
+        "content": ["Individual project"],
         "img": "LostAndFound.png",
         "tools": ["VS Code"],
         "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"]
@@ -39,7 +43,8 @@
         "path": "/ios-calculator",
         "title": "IOS Calculator",
         "video": "https://youtu.be/UclXB3TGCxk",
-        "content": "This is an IOS calculator app, supports binary, decimal and hexdecminal calculation and random value generation ",
+        "description": "This is an IOS calculator app, supports binary, decimal and hexdecminal calculation and random value generation ",
+        "content": ["Individual project"],
         "img": "IOSCalculator.png",
         "tools": ["XCode"],
         "languages": ["Swift"]
@@ -48,7 +53,8 @@
         "path": "/android-app",
         "title": "Sandbox Mini Game",
         "video": "https://youtu.be/JPNvxK6WqMM",
-        "content": "Allows user to insert and delete icons which moves around the screen and bounce back upon hitting the edge of the screen",
+        "description": "This is a mini sandbox game, allows user to insert and delete icons which moves around the screen and bounce back upon hitting the edge of the screen",
+        "content": ["Individual project"],
         "img": "AndroidApp.png",
         "tools": ["Android Studio"],
         "languages": ["Java"]
@@ -57,7 +63,8 @@
         "path": "/infinity-glass",
         "title": "Infinity-glass PV",
         "video": "https://youtu.be/WjW6a7ZGf7A",
-        "content": "This is a promotion video for promoting a conceptial product, the infinity-glass",
+        "description": "This is a promotion video for promoting a conceptial product, the infinity-glass",
+        "content": ["Group project"],
         "img": "InfinityGlasses.png",
         "tools": ["Davinci Resolve"],
         "languages": []
@@ -66,7 +73,8 @@
         "path": "/welfare-system-of-europe",
         "title": "Welfare System of Europe",
         "video": "https://youtu.be/5QMFE3sMulw",
-        "content": "This is a presentation video for an academic project, discussing the welfare system in the West",
+        "description": "This is a presentation video for an academic project, discussing the welfare system in the West",
+        "content": ["Group project, teamming with other 3 students"],
         "img": "WelfareSystem.png",
         "tools": ["Davinci Resolve"],
         "languages": []
@@ -75,7 +83,8 @@
         "path": "/toohak-3D",
         "title": "Toohak 3D",
         "video": "https://youtu.be/6NQb9DSFOFw",
-        "content": "This is a 3D Unity game",
+        "description": "The main objective of Toohak 3D is to provide a 3D environment for students to do multiple choice questions in a more attractive and interactive way.",
+        "content": ["Group project, teamming with other 3 students"],
         "img": "Toohak3D.png",
         "tools": ["Unity", "VS Code"],
         "languages": ["C#"]
@@ -84,7 +93,8 @@
         "path": "/back-to-the-past",
         "title": "Back To The Past PV",
         "video": "https://youtu.be/lwVbI44llqI",
-        "content": "This is a 3D animation, produced in Blender",
+        "description": "This is a promotion video for a conceptial game, Back To The Past, it is a 3D open world exploration game, involves interesting mechanics such as time travel",
+        "content": ["Individual project"],
         "img": "BackToThePast.png",
         "tools": ["3D Blender", "Davinci Resolve"],
         "languages": []
@@ -93,7 +103,8 @@
         "path": "/cobra-maneuver",
         "title": "Cobra maneuver",
         "video": "https://youtu.be/mwkN7_QfB78",
-        "content": "This is a 3D animation, produced in 3DSMax",
+        "description": "This is a simple 3D animation",
+        "content": ["Individual project"],
         "img": "CobraManeuver.png",
         "tools": ["3DS Max"],
         "languages": []

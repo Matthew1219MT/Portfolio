@@ -33,7 +33,11 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
                 })}
             </div>
             <Divider className="project-showcase-divider"/>
-            <div>{project.content}</div>
+                {project.description}
+            <Divider className="project-showcase-divider"/>
+            <ul>{project.content.map((point, index)=>{
+                return <li>{point}</li>
+            })}</ul>
         </div>
         {!isMobile && <div className='project-showcase-project-list'>
             {other_projects.map((project, index) => {
