@@ -1,13 +1,15 @@
 [
     {
-        "path": "/driving-simulator",
+        "path": "/drive-master",
         "title": "Master Drive - 3D Multiplayer Driving Simulator",
         "video": "https://youtu.be/9y5wvXi1GQc",
         "description": "Master Drive is an online multiplayer driving simulator which aims to create a realistic driving simulation game for students to play and learn, and improve student’s traffic safety awareness and cultivate social responsibility. In Master Drive, other than operating a realistic vehicle, players have to obey the road laws while gaining points by driving towards a random generated zone.",
         "content": ["Final year group project", "Leader of a 3 students group", "Major framework contructed with MVVM strucutre", "Responsible for game framework, player character, UI and HUD development"],
         "img": "DriveMaster.png",
         "tools": ["Godot", "GitHub"],
-        "languages": ["GDScript"]
+        "languages": ["GDScript"],
+        "gallery": "DriveMaster",
+        "imageCount": 0
     },
     {
         "path": "/study-war",
@@ -17,7 +19,9 @@
         "content": ["Leader of a 4 students group", "Designed the algorithm for random map generation", "Responsible for game framework, player character, game environment and UI development"],
         "img": "StudyWar.png",
         "tools": ["Unity", "VS Code"],
-        "languages": ["C#"]
+        "languages": ["C#"],
+        "gallery": "StudyWar",
+        "imageCount": 9
     },
     {
         "path": "/library-admin-system",
@@ -27,7 +31,9 @@
         "content": ["Group project, teamming with another student", "Developed with Object-Oriented Programming"],
         "img": "LibraryManagementSystem.png",
         "tools": ["Eclipse"],
-        "languages": ["Java"]
+        "languages": ["Java"],
+        "gallery": "LibraryManagementSystem",
+        "imageCount": 0
     },
     {
         "path": "/online-lost-and-found-system",
@@ -37,7 +43,9 @@
         "content": ["Individual project"],
         "img": "LostAndFound.png",
         "tools": ["VS Code"],
-        "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"]
+        "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
+        "gallery": "LostAndFound",
+        "imageCount": 0
     },
     {
         "path": "/ios-calculator",
@@ -47,7 +55,9 @@
         "content": ["Individual project"],
         "img": "IOSCalculator.png",
         "tools": ["XCode"],
-        "languages": ["Swift"]
+        "languages": ["Swift"],
+        "gallery": "IOSCalculator",
+        "imageCount": 0
     },
     {
         "path": "/android-app",
@@ -57,7 +67,9 @@
         "content": ["Individual project"],
         "img": "AndroidApp.png",
         "tools": ["Android Studio"],
-        "languages": ["Java"]
+        "languages": ["Java"],
+        "gallery": "AndroidApp",
+        "imageCount": 0
     },
     {
         "path": "/infinity-glass",
@@ -67,7 +79,9 @@
         "content": ["Group project"],
         "img": "InfinityGlasses.png",
         "tools": ["Davinci Resolve"],
-        "languages": []
+        "languages": [],
+        "gallery": "InfinityGlasses",
+        "imageCount": 0
     },
     {
         "path": "/welfare-system-of-europe",
@@ -77,7 +91,9 @@
         "content": ["Group project, teamming with other 3 students"],
         "img": "WelfareSystem.png",
         "tools": ["Davinci Resolve"],
-        "languages": []
+        "languages": [],
+        "gallery": "WelfareSystem",
+        "imageCount": 0
     },
     {
         "path": "/toohak-3D",
@@ -87,7 +103,9 @@
         "content": ["Group project, teamming with other 3 students"],
         "img": "Toohak3D.png",
         "tools": ["Unity", "VS Code"],
-        "languages": ["C#"]
+        "languages": ["C#"],
+        "gallery": "Toohak3D",
+        "imageCount": 0
     }, 
     {
         "path": "/back-to-the-past",
@@ -97,7 +115,9 @@
         "content": ["Individual project"],
         "img": "BackToThePast.png",
         "tools": ["3D Blender", "Davinci Resolve"],
-        "languages": []
+        "languages": [],
+        "gallery": "BackToThePast",
+        "imageCount": 6
     },
     {
         "path": "/cobra-maneuver",
@@ -107,6 +127,20 @@
         "content": ["Individual project"],
         "img": "CobraManeuver.png",
         "tools": ["3DS Max"],
-        "languages": []
+        "languages": [],
+        "gallery": "CobraManeuver",
+        "imageCount": 0
+    },
+    {
+        "path": "/web-RTC",
+        "title": "Online Broadcast System",
+        "video": "",
+        "description": "In this project, our team implemented a video monitoring system, which allows user to broadcast his/her live video footage to other user for monitoring through standard Web browser. Other than that, our team also implemented some advanced features such as viewer counter, video recording, motion detection and face tracking.",
+        "content": ["Group project, teamming with another student", "Developed with WebRTC api"],
+        "img": "WebRTC.png",
+        "tools": ["VS Code", "GitHub"],
+        "languages": ["JavaScript", "HTML"],
+        "gallery": "WebRTC",
+        "imageCount": 4
     }
 ]

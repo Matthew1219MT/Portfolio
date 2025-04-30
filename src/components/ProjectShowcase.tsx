@@ -3,9 +3,9 @@ import './ProjectShowcase.css';
 import { useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import ProjectsInfo from '../resources/ProjectInfo.json';
-import { Project } from './Utilities';
+import { Project, shuffle } from './Utilities';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardActionArea, CardContent, CardMedia, Typography, Divider, Chip, Skeleton } from '@mui/material';
+import { Card, CardActionArea, CardContent, CardMedia, Typography, Divider, Chip, Skeleton, ImageList, ImageListItem } from '@mui/material';
 
 type Props = {
     project: Project
@@ -13,7 +13,11 @@ type Props = {
 
 const ProjectShowcase:React.FC<Props> = ({project}) => {
 
-    const other_projects: Project[] = ProjectsInfo.filter((obj) => obj.title !== project.title);
+    const other_projects: Project[] = shuffle(ProjectsInfo.filter((obj) => obj.title !== project.title));
+
+    const image_list: string[] = Array.from({ length: project.imageCount }, (_, i) => `${project.gallery}_${i+1}.png`);
+
+    console.log(image_list);
 
     const navigate = useNavigate();
 
@@ -60,6 +64,14 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
             <ul>{project.content.map((point, index)=>{
                 return <li>{point}</li>
             })}</ul>
+            {image_list.length > 0 && <Divider className="project-showcase-divider"/>}
+            <ImageList variant="masonry" cols={3} gap={8}>
+            {image_list.map((image, index) => (
+                <ImageListItem key={index}>
+                    <img src={require(`../resources/gallery/${project.gallery}/${image}`)} alt={image} loading="lazy"/>
+                </ImageListItem>
+            ))}
+            </ImageList>
         </div>
         {!isMobile && <div className='project-showcase-project-list'>
             {other_projects.map((project, index) => {

@@ -5,6 +5,17 @@
     --dark-grey: #282828;
 }
 
+@keyframes title-entry {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes button-entry {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .home-page-container {
     display: flex;
     flex-direction: column;
@@ -17,11 +28,16 @@
     font-size: 64px;
     font-weight: 700;
     color: var(--light-yellow);
+    text-align: center;
+    animation-name: title-entry;
+    animation-duration: 1s;
 }
 
 .home-page-content {
     font-size: 48px;
     color: white;
+    animation-name: title-entry;
+    animation-duration: 1s;
 }
 
 .home-page-button {
@@ -32,6 +48,8 @@
     padding: 10px;
     color: white;
     border: none;
+    animation-name: button-entry;
+    animation-duration: 2s;
 }
 
 .home-page-button:hover {
