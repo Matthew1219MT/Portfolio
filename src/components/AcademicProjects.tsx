@@ -130,6 +130,7 @@ const AcademicProjects: React.FC = () => {
 
   return (<div className='academic-projects-foundation'>
     <div className='academic-projects-filter'>
+      <p style={{fontWeight: 'bold', textAlign: 'center'}}>OR Sort</p>
       <ModulatedSelect title='Tools' value={selectedTools} onChange={handleToolsChange} options={tools}></ModulatedSelect>
       <ModulatedSelect title='Languages' value={selectedLanguages} onChange={handleLanguagesChange} options={languages}></ModulatedSelect>
     </div>

@@ -1,8 +1,3 @@
-:root {
-    --dark-purple: rgb(70, 0, 70);
-    --light-yellow: rgb(255, 255, 135);
-}
-
 .project-showcase-container {
     width: 100%;
     display: flex;
@@ -66,4 +61,18 @@
 
 .project-showcase-tool-chip:hover, .project-showcase-language-chip:hover {
     box-shadow: 0 0 5px 3px var(--light-yellow) !important; 
+}
+
+.project-showcase-button {
+    text-align: center;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--grey);
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.project-showcase-button:hover {
+    box-shadow: 0 0 5px 3px var(--light-yellow); 
 }

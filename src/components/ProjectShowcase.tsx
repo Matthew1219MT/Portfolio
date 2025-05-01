@@ -65,13 +65,16 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
                 return <li>{point}</li>
             })}</ul>
             {image_list.length > 0 && <Divider className="project-showcase-divider"/>}
-            <ImageList variant="masonry" cols={3} gap={8}>
+            {image_list.length > 0 && <ImageList variant="masonry" cols={3} gap={8}>
             {image_list.map((image, index) => (
+                // <p>{`../resources/gallery/${project.gallery}/${image}`}</p>
                 <ImageListItem key={index}>
                     <img src={require(`../resources/gallery/${project.gallery}/${image}`)} alt={image} loading="lazy"/>
                 </ImageListItem>
             ))}
-            </ImageList>
+            </ImageList>}
+            <Divider className="project-showcase-divider"/>
+            <button className="project-showcase-button" onClick={()=>{navigate('/academic-projects')}}>Back to Academic Projects</button>
         </div>
         {!isMobile && <div className='project-showcase-project-list'>
             {other_projects.map((project, index) => {
