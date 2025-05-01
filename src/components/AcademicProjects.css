@@ -11,17 +11,17 @@
         border-color: var(--light-yellow) !important;
     }
     
-    .css-lohd6h-MuiSvgIcon-root-MuiSelect-icon, .css-1umw9bq-MuiSvgIcon-root {
+    .MuiSelect-iconOpen, .MuiSelect-iconOutlined {
         color: var(--light-yellow) !important;
     }
 }
 
-.css-1rju2q6-MuiButtonBase-root-MuiMenuItem-root {
+.MuiMenu-list {
     background-color: var(--grey) !important;
     color: white !important;
 }
 
-.css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+.MuiMenu-paper {
     background-color: var(--grey) !important;
 }
 
@@ -72,3 +72,8 @@
     background-color: var(--dark-grey)!important;
 }
 
+.MuiCheckbox-root {
+    .MuiSvgIcon-fontSizeMedium {
+        color: var(--light-yellow) !important;
+    }
+}
