@@ -5,6 +5,7 @@ import ProjectShowcase from "./ProjectShowcase";
 import ProjectsInfo from '../resources/ProjectInfo.json';
 import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
+import ProjectInfo from "./ProjectInfo";
 
 const Foundation: React.FC = () => {
 
@@ -20,6 +21,7 @@ const Foundation: React.FC = () => {
                         <Route path="/" element={<Homepage/>}/>
                         <Route path="/about-me" element={<AboutMe/>}/>
                         <Route path="/academic-projects" element={<AcademicProjects/>}/>
+                        <Route path="/project-info" element={<ProjectInfo/>}/>
                         {ProjectsInfo.map((project, index) => {
                             return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase project={project}/>}></Route>
                         })}

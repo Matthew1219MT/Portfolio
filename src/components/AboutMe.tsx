@@ -1,4 +1,4 @@
-import { Avatar, Chip, Divider, Card, Typography, CardContent } from "@mui/material";
+import { Avatar, Chip, Divider, Card, Typography } from "@mui/material";
 import { message } from "antd";
 import './AboutMe.css';
 import { Flag, GitHub, LinkedIn, Mail } from "@mui/icons-material";
