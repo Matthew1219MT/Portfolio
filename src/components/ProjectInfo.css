@@ -11,3 +11,10 @@
 .project-info-divider {
     background-color: var(--light-yellow);
 }
+
+.project-info-chip-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

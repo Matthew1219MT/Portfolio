@@ -17,8 +17,6 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
 
     const image_list: string[] = Array.from({ length: project.imageCount }, (_, i) => `${project.gallery}_${i+1}.png`);
 
-    console.log(image_list);
-
     const navigate = useNavigate();
 
     type SmartCardMediaProps = {
