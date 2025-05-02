@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.65ddca80.css",
-    "main.js": "/Portfolio/static/js/main.f165f7b8.js",
+    "main.js": "/Portfolio/static/js/main.b26ead4e.js",
     "reactPlayerPreview.js": "/Portfolio/static/js/reactPlayerPreview.ed9165c6.chunk.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/BackToThePast.png": "/Portfolio/static/media/BackToThePast.7159412510573a2ac05a.png",
@@ -37,6 +37,7 @@
     "static/media/DriveMaster.png": "/Portfolio/static/media/DriveMaster.a10b6e92ae2f5093b0cb.png",
     "static/media/StudyWar_7.png": "/Portfolio/static/media/StudyWar_7.484d391f7be48114845e.png",
     "static/media/DriveMaster_4.png": "/Portfolio/static/media/DriveMaster_4.6751af7c29007d4c9d16.png",
+    "static/media/DriveMaster_9.png": "/Portfolio/static/media/DriveMaster_9.4dc8a394670002b8ef55.png",
     "static/media/WebRTC_4.png": "/Portfolio/static/media/WebRTC_4.70c437842ceecd141b78.png",
     "static/media/LibraryManagementSystem.png": "/Portfolio/static/media/LibraryManagementSystem.2ae2b78ee7f66bd16712.png",
     "static/media/StudyWar_9.png": "/Portfolio/static/media/StudyWar_9.241ffc723c3f27f4a716.png",
@@ -52,12 +53,12 @@
     "static/media/LostAndFound.png": "/Portfolio/static/media/LostAndFound.43d70630fd06763e20d6.png",
     "index.html": "/Portfolio/index.html",
     "main.65ddca80.css.map": "/Portfolio/static/css/main.65ddca80.css.map",
-    "main.f165f7b8.js.map": "/Portfolio/static/js/main.f165f7b8.js.map",
+    "main.b26ead4e.js.map": "/Portfolio/static/js/main.b26ead4e.js.map",
     "reactPlayerPreview.ed9165c6.chunk.js.map": "/Portfolio/static/js/reactPlayerPreview.ed9165c6.chunk.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65ddca80.css",
-    "static/js/main.f165f7b8.js"
+    "static/js/main.b26ead4e.js"
   ]
 }
