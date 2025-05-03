@@ -1,0 +1,82 @@
+{
+    "description": "A highly passionate and creative event coordinator with strong organizational and communication skills. A quick learner with eagerness to continuously learn and adapt. Proven ability to work under pressure with high resilience for tasks requiring independence or collaboration. Willing to cooperate with others to deliver results on time with excellence.",
+    "education": [
+        {
+            "title": "Master of Information Technology",
+            "university": "The University of Melbourne",
+            "start": "2025",
+            "end": "present"
+        },
+        {
+            "title": "Bsc(Hons)Internet and Multimedia Technologies",
+            "university": "Hong Kong Polytechnic University",
+            "start": "2020",
+            "end": "2024"
+        }
+    ],
+    "employment": [
+        {
+            "title": "Programmer",
+            "company": "LinkPower Technology Limited",
+            "start": "July 2024",
+            "end": "January 2025",
+            "description": [
+                "Developed an admin dashboard with <b>React TypeScript, React Router</b>, managing page content with modulated tabpages and config JSON",
+                "Built a search engine webpage with <b>React TypeScript, React Redux, AntDesign UI package</b>",
+                "Engineered a train track dashboard page with <b>React TypeScript, Ploty Dash Python</b>",
+                "Created an AI chatroom webpage with <b>React TypeScript</b>"
+            ]
+        },
+        {
+            "title": "Student Assistant",
+            "company": "Hong Kong Polytechnic University Industrial Center",
+            "start": "December 2022",
+            "end": "June 2024",
+            "description": [
+                "Developed an application to detect and display the change in color of specimens with <b>Python, OpenCV, Tkinter</b>",
+                "Built a back-end system to update staff status automatically with <b>Python, MQTT</b>",
+                "Engineered an automatic system to perform basic eye checking <b>Python, OpenCV</b>"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Software Development",
+            "list": ["Unity", "Godot", "XCode", "Android Studio"]
+        },
+        {
+            "name": "Programming",
+            "list": ["Python", "Java", "C#", "C++", "GDScript"]
+        },
+        {
+            "name": "Web Development",
+            "list": ["TypeScript", "JavaScript", "HTML", "PHP", "CSS"]
+        },
+        {
+            "name": "Development Tools",
+            "list": ["Visual Studio Code", "GitHub", "Bitbucket", "Eclipse"]
+        },
+        {
+            "name": "Testing Tools",
+            "list": ["Jest"]
+        },
+        {
+            "name": "Database",
+            "list": ["MySQL"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "level": "7.5 in IELTS (2/2024)"
+        },
+        {
+            "language": "Cantonese ",
+            "level": "Native Speaker"
+        },
+        {
+            "language": "Mandarin ",
+            "level": "Intermediate"
+        }
+    ]
+}

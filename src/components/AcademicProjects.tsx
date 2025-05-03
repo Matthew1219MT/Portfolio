@@ -5,10 +5,10 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import { useNavigate } from 'react-router-dom';
-import './AcademicProjects.css';
 import { useEffect, useState } from 'react';
 import { Project } from './Utilities';
 import { Checkbox, Chip, Divider, FormControl, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, SelectChangeEvent, Skeleton } from '@mui/material';
+import './AcademicProjects.css';
 
 const AcademicProjects: React.FC = () => {
 

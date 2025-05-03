@@ -1,8 +1,9 @@
 import { Avatar, Chip, Divider, Card, Typography } from "@mui/material";
 import { message } from "antd";
 import './AboutMe.css';
-import { Flag, GitHub, LinkedIn, Mail } from "@mui/icons-material";
+import { Cake, Flag, GitHub, LinkedIn, Mail } from "@mui/icons-material";
 import { ReactNode } from "react";
+import CV from '../resources/AboutMe.json';
 
 const AboutMe: React.FC = () => {
 
@@ -38,14 +39,32 @@ const AboutMe: React.FC = () => {
         </Card>);
     }
 
+      
+    const BoldParser = (value: string): ReactNode => {
+        const parts = value.split(/(<b>.*?<\/b>)/);
+        
+        return (
+            <div>
+            {parts.map((part, i) => {
+                if (part.startsWith('<b>') && part.endsWith('</b>')) {
+                const content = part.slice(3, -4);
+                return <b key={i}>{content}</b>;
+                }
+                return <>{part}</>;
+            })}
+            </div>
+        );
+    };
+
     type JobCardProps = {
         company: string, 
         title: string,
         date: string,
-        content: ReactNode
+        content: string[]
     }
 
     const JobCard: React.FC<JobCardProps> = ({company, title, date, content}) => {
+
         return (<Card sx={{ maxWidth: 350, backgroundColor: '#363636' }} className='about-me-card'>
             <Typography gutterBottom sx={{ color: 'rgb(255, 255, 135)', fontSize: 18 }}>
                 {company}
@@ -57,7 +76,11 @@ const AboutMe: React.FC = () => {
                 {date}
             </Typography>
             <div style={{ color: 'white', fontSize: '16px'}}>
-                {content}
+                <ul>
+                {content.map((value)=>{
+                    return <li>{BoldParser(value)}</li>
+                })}
+                </ul>
             </div>
         </Card>);
     }
@@ -80,6 +103,29 @@ const AboutMe: React.FC = () => {
         </Card>);
     }
 
+    type LanguageCardProps = {
+        language: string,
+        level: string
+    }
+
+    const LanguageCard: React.FC<LanguageCardProps> = ({language, level}) => {
+        return (<Card sx={{ maxWidth: 350, backgroundColor: '#363636' }} className='about-me-card'>
+            <Typography sx={{ color: 'white', fontSize: 22, fontWeight: 700 }}>
+                <u>{language}</u>
+            </Typography>
+            <div style={{ color: 'white', fontSize: '16px'}}>
+                {level}
+            </div>
+        </Card>);
+    }
+
+    const BirthdayHandler = () => {
+        const today: Date = new Date();
+        if (today.getMonth() === 12 - 1 && today.getDate() === 19) {
+            messageApi.open({ type: 'info', content: 'Happy Birthday to me !!!'});
+        }
+    }
+
     return <div>
         <div className='about-me-container'>
             {contextHolder}
@@ -90,67 +136,51 @@ const AboutMe: React.FC = () => {
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Mail/>&nbsp;Matttse1219@gmail.com</div>} onClick={() => {CopyHandler('Matttse1219@gmail.com')}}/>
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><LinkedIn/>&nbsp;Chun Hei Tse</div>} onClick={() => {window.open('https://www.linkedin.com/in/chun-hei-tse-7a8785300/', "_blank", "noreferrer")}}/>
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><GitHub/>&nbsp;Matthew1219MT</div>} onClick={() => {window.open('https://github.com/Matthew1219MT', "_blank", "noreferrer")}}/>
-                    <Chip className='about-me-chip' label={<div className='about-me-chip-label' onClick={() => {messageApi.open({ type: 'info', content: 'Hello ! 你食咗飯未 ?'});}}><Flag/>&nbsp;Hong Kong Citizen</div>}/>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Flag/>&nbsp;Hong Kong Citizen</div>} onClick={() => {messageApi.open({ type: 'info', content: 'Hello ! 你食咗飯未 ?'});}}/>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Cake/>&nbsp;19 Dec 2002</div>} onClick={() => {BirthdayHandler()}}/>
                 </div>
             </div>
         </div>
         <Divider className="about-me-divider"/>
         <div className='about-me-sub-container'>
             <h2>About Me</h2>
-            A highly passionate and creative event coordinator with strong organizational and communication skills. 
-            A quick learner with eagerness to continuously learn and adapt. 
-            Proven ability to work under pressure with high resilience for tasks requiring independence or collaboration. 
-            Willing to cooperate with others to deliver results on time with excellence.
+            {CV.description}
         </div>
         <Divider className="about-me-divider"/>
         <div className='about-me-sub-container'>
             <h2>Education</h2>
             <div className='about-me-container'>
-                <EduCard uni='The University of Melbourne' degree='Master of Information Technology' date='2025 - Present'/>
-                <EduCard uni='HongKongPolytechnic University' degree=' Bsc(Hons)Internet and Multimedia Technologies' date='2020 - 2024'/>
+                {CV.education.map((edu)=>{
+                    return <EduCard uni={edu.university} degree={edu.title} date={`${edu.start}-${edu.end}`}/>
+                })}
             </div>
         </div>
         <Divider className="about-me-divider"/>
         <div className='about-me-sub-container'>
             <h2>Employment</h2>
             <div className='about-me-container'>
-                <JobCard company='LinkPower Technology Limited' title='Programmer' date='July 2024 - January 2025'
-                    content={<ul>
-                        <li>Developed an admin webpage as dashboard with <b>React TypeScript, React Router</b></li>
-                        <li>Built a search engine webpage with <b>React TypeScript, React Redux, AntDesign library</b></li>
-                        <li>Engineered a dashboard page for train track with <b>React TypeScript and Plotly Dash(Python)</b></li>
-                        <li>Created a AI chatroom webpage, with <b>React TypeScript</b></li>
-                    </ul>}
-                />
-                <JobCard company='Hong Kong Polytechnic University Industrial Center ' title=' Student Assistant' date='December 2022- June 2024'
-                    content={<ul>
-                        <li>Developed an application to detect and display the change in color of specimenswith <b>Python, OpenCV, Tkinter</b></li>
-                        <li>Built a back-end system to update staff status automatically with <b>Python, MQTT</b></li>
-                        <li>Engineered an automatic system to perform basic eye checking with <b>Python, OpenCV</b></li>
-                    </ul>}
-                />
+                {CV.employment.map((job)=>{
+                    return <JobCard company={job.company} title={job.title} date={`${job.start}-${job.end}`} content={job.description}/>
+                })}
             </div>
         </div>
         <Divider className="about-me-divider"/>
         <div className='about-me-sub-container'>
             <h2>Skills</h2>
             <div className='about-me-container'>
-                <SkillCard category="Software Development" skills={["Unity", "Godot", "XCode", "Android Studio"]}/>
-                <SkillCard category="Programming" skills={["Python", "Java", "C#", "C++", "GDScript"]}/>
-                <SkillCard category="Web Development" skills={["TypeScript", "JavaScript", "HTML", "PHP", "CSS"]}/>
-                <SkillCard category="Development Tools" skills={["Visual Studio Code", "GitHub", "Bitbucket"]}/>
-                <SkillCard category="Testing Tools" skills={["Jest"]}/>
-                <SkillCard category="Database" skills={["MySQL"]}/>
+                {CV.skills.map((skill)=>{
+                    return <SkillCard category={skill.name} skills={skill.list}/>
+                })}
             </div>
         </div>
         <Divider className="about-me-divider"/>
         <div className='about-me-sub-container'>
             <h2>Languages</h2>
-            <ul>
-                <li><b>English</b> - 7.5 in IELTS (2/2024)</li>
-                <li><b>Cantonese</b> - Native Speaker</li>
-                <li><b>Mandarin</b> - Intermediate</li>
-            </ul>
+            <div className='about-me-container'>
+                {CV.languages.map((lang)=>{
+                    return <LanguageCard language={lang.language} level={lang.level}/>
+                })}
+            </div>
         </div>
     </div>
 }
