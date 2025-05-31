@@ -24,7 +24,18 @@
                 "Developed an admin dashboard with <b>React TypeScript, React Router</b>, managing page content with modulated tabpages and config JSON",
                 "Built a search engine webpage with <b>React TypeScript, React Redux, AntDesign UI package, i18n package</b>",
                 "Engineered a train track dashboard page with <b>React TypeScript, Ploty Dash Python</b>",
-                "Created an AI chatroom webpage with <b>React TypeScript</b>"
+                "Created an AI chatroom webpage with <b>React TypeScript</b>",
+                "Performed version control through <b>Bitbucket</b>"
+            ]
+        },
+        {
+            "title": "Project Technical Assistant",
+            "company": "Hong Kong Polytechnic University Information Technology Service Office",
+            "start": "June 2023",
+            "end": "August 2023",
+            "description": [
+                "Developed a photo taking software that can send images to user through email with <b>Unity</b>",
+                "Performed version control through <b>Fork</b>"
             ]
         },
         {
@@ -54,7 +65,11 @@
         },
         {
             "name": "Development Tools",
-            "list": ["Visual Studio Code", "GitHub", "Bitbucket", "Eclipse"]
+            "list": ["Visual Studio Code",  "Eclipse"]
+        },
+        {
+            "name": "Version Control",
+            "list": ["GitHub", "Bitbucket", "Fork"]
         },
         {
             "name": "Testing Tools",

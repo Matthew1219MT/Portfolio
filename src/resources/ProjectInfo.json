@@ -142,5 +142,17 @@
         "languages": ["JavaScript", "HTML"],
         "gallery": "WebRTC",
         "imageCount": 4
+    },
+    {
+        "path": "/assistive-device-development-for-SMA-children",
+        "title": "Assistive device development for SMA children",
+        "video": "https://youtu.be/b9GsPJplkHM",
+        "description": "Our group aims to create a Switch Joy-Con adaptor for a SMA children which can improve his gaming experience.",
+        "content": ["Group project, teamming with another 3 student", "Developed with Arduino"],
+        "img": "SMA.png",
+        "tools": ["3D Blender"],
+        "languages": [],
+        "gallery": "SMA",
+        "imageCount": 7
     }
 ]
