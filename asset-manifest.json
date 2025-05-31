@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.65ddca80.css",
-    "main.js": "/Portfolio/static/js/main.e2b42b8c.js",
+    "main.js": "/Portfolio/static/js/main.396004a4.js",
     "reactPlayerPreview.js": "/Portfolio/static/js/reactPlayerPreview.ed9165c6.chunk.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/BackToThePast.png": "/Portfolio/static/media/BackToThePast.7159412510573a2ac05a.png",
@@ -14,9 +14,13 @@
     "static/media/StudyWar.png": "/Portfolio/static/media/StudyWar.889c70930ea80b0b87cc.png",
     "static/media/WelfareSystem.png": "/Portfolio/static/media/WelfareSystem.a0184e6d9fbdabf6e58e.png",
     "static/media/DriveMaster_2.png": "/Portfolio/static/media/DriveMaster_2.39c319849a30aa3f597c.png",
+    "static/media/SMA_7.png": "/Portfolio/static/media/SMA_7.b494b86ebf88b848ed4c.png",
+    "static/media/SMA_4.png": "/Portfolio/static/media/SMA_4.fc236dc1769674117e16.png",
+    "static/media/SMA_6.png": "/Portfolio/static/media/SMA_6.4a5e39bfb4c37a66a889.png",
     "static/media/BackToThePast_5.png": "/Portfolio/static/media/BackToThePast_5.a244574d89ddbe83c627.png",
     "static/media/BackToThePast_4.png": "/Portfolio/static/media/BackToThePast_4.9308baf6c69c75e05c2a.png",
     "static/media/BackToThePast_1.png": "/Portfolio/static/media/BackToThePast_1.69f632f54739f439060f.png",
+    "static/media/SMA_5.png": "/Portfolio/static/media/SMA_5.ec087feb88be1c0587e5.png",
     "static/media/IOSCalculator.png": "/Portfolio/static/media/IOSCalculator.78b28b7f54e6dc7dacbf.png",
     "static/media/BackToThePast_3.png": "/Portfolio/static/media/BackToThePast_3.bb5304e8f85fe9a6d39d.png",
     "static/media/DriveMaster_7.png": "/Portfolio/static/media/DriveMaster_7.67ddc5c291a7760401ec.png",
@@ -27,9 +31,13 @@
     "static/media/Toohak3D_5.png": "/Portfolio/static/media/Toohak3D_5.a177d9a3a5c38d584535.png",
     "static/media/Toohak3D_3.png": "/Portfolio/static/media/Toohak3D_3.8355b5f23d16991c2e5f.png",
     "static/media/Toohak3D_2.png": "/Portfolio/static/media/Toohak3D_2.d549990af33a56889b72.png",
+    "static/media/SMA_2.png": "/Portfolio/static/media/SMA_2.e127b431954b1431b77c.png",
+    "static/media/SMA.png": "/Portfolio/static/media/SMA.cb65880f1f2871d12203.png",
     "static/media/Toohak3D_7.png": "/Portfolio/static/media/Toohak3D_7.0178ea4d36a649511915.png",
     "static/media/BackToThePast_6.png": "/Portfolio/static/media/BackToThePast_6.e4468c1fc98f4cbfffae.png",
+    "static/media/SMA_1.png": "/Portfolio/static/media/SMA_1.37591e8ddb7289bf1a11.png",
     "static/media/DriveMaster_5.png": "/Portfolio/static/media/DriveMaster_5.7a7825889470842d5091.png",
+    "static/media/SMA_3.png": "/Portfolio/static/media/SMA_3.d05db4f221502acf1429.png",
     "static/media/Toohak3D_1.png": "/Portfolio/static/media/Toohak3D_1.8657d1ef127a24f05886.png",
     "static/media/WebRTC_2.png": "/Portfolio/static/media/WebRTC_2.a17741b02a119f2db8db.png",
     "static/media/WebRTC_1.png": "/Portfolio/static/media/WebRTC_1.d41b6af21fdf9f0a1805.png",
@@ -38,6 +46,7 @@
     "static/media/StudyWar_7.png": "/Portfolio/static/media/StudyWar_7.484d391f7be48114845e.png",
     "static/media/DriveMaster_4.png": "/Portfolio/static/media/DriveMaster_4.6751af7c29007d4c9d16.png",
     "static/media/DriveMaster_9.png": "/Portfolio/static/media/DriveMaster_9.4dc8a394670002b8ef55.png",
+    "static/media/WebRTC.png": "/Portfolio/static/media/WebRTC.70c437842ceecd141b78.png",
     "static/media/WebRTC_4.png": "/Portfolio/static/media/WebRTC_4.70c437842ceecd141b78.png",
     "static/media/LibraryManagementSystem.png": "/Portfolio/static/media/LibraryManagementSystem.2ae2b78ee7f66bd16712.png",
     "static/media/StudyWar_9.png": "/Portfolio/static/media/StudyWar_9.241ffc723c3f27f4a716.png",
@@ -49,16 +58,15 @@
     "static/media/StudyWar_2.png": "/Portfolio/static/media/StudyWar_2.3b0f1001b3edaee2b6f7.png",
     "static/media/StudyWar_4.png": "/Portfolio/static/media/StudyWar_4.232b1243367caa31b030.png",
     "static/media/StudyWar_3.png": "/Portfolio/static/media/StudyWar_3.be13517ded682394374b.png",
-    "static/media/WebRTC.png": "/Portfolio/static/media/WebRTC.ff437dd41e61ce968781.png",
     "static/media/LostAndFound.png": "/Portfolio/static/media/LostAndFound.43d70630fd06763e20d6.png",
     "index.html": "/Portfolio/index.html",
     "main.65ddca80.css.map": "/Portfolio/static/css/main.65ddca80.css.map",
-    "main.e2b42b8c.js.map": "/Portfolio/static/js/main.e2b42b8c.js.map",
+    "main.396004a4.js.map": "/Portfolio/static/js/main.396004a4.js.map",
     "reactPlayerPreview.ed9165c6.chunk.js.map": "/Portfolio/static/js/reactPlayerPreview.ed9165c6.chunk.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65ddca80.css",
-    "static/js/main.e2b42b8c.js"
+    "static/js/main.396004a4.js"
   ]
 }
