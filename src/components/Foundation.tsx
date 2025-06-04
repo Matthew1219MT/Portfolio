@@ -6,6 +6,7 @@ import ProjectsInfo from '../resources/ProjectInfo.json';
 import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
 import ProjectInfo from "./ProjectInfo";
+import UnityGame from "./UnityGame";
 
 const Foundation: React.FC = () => {
 
@@ -25,6 +26,7 @@ const Foundation: React.FC = () => {
                         {ProjectsInfo.map((project, index) => {
                             return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase project={project}/>}></Route>
                         })}
+                        <Route path="/game/StudyWar" element={<UnityGame/>}/>
                     </Routes>
                 </HashRouter>
             </div>

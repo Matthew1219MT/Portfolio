@@ -10,6 +10,7 @@ const Homepage: React.FC = () => {
         <div className="home-page-content">Portfolio</div>
         <button className="home-page-button" onClick={()=>{navigate('/about-me')}}>About Me</button>
         <button className="home-page-button" onClick={()=>{navigate('/academic-projects')}}>Academic Projects</button>
+        <button className="home-page-button" onClick={()=>{navigate('game/StudyWar')}}>StudyWar</button>
         <button className="home-page-button" onClick={()=>{navigate('/project-info')}}>Project Info</button>
     </div>);
 }
