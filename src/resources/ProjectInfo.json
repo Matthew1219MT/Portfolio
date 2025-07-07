@@ -154,5 +154,17 @@
         "languages": [],
         "gallery": "SMA",
         "imageCount": 7
+    }, 
+    {
+        "path": "/urban-tree-explorer",
+        "title": "Urban Tree Explorer",
+        "video": "https://youtu.be/lIl9eFFzvNU",
+        "description": "This group project aims to practice the use of Scrum SDLC. The project consist of 3 sprints, two weeks per sprint. During the sprint, SCRUM practices were done such as Sprint meeting, Sprint Retrospective and Sprint Review. Detailed documentation were also carried out during the process.",
+        "content": ["Group project, teamming with other 4 students", "Developed with SCRUM Software Development Lifecycle Model", "Developed with WordPress"],
+        "img": "UrbanTreeExplorer.png",
+        "tools": ["WordPress"],
+        "languages": [],
+        "gallery": "UrbanTreeExplorer",
+        "imageCount": 4
     }
 ]
