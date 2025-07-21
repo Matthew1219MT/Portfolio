@@ -16,6 +16,14 @@
     ],
     "employment": [
         {
+            "title": "Software Mastero Internship",
+            "company": "AAkonsult Pty Ltd",
+            "start": "July 2025",
+            "end": "Present",
+            "description": [
+            ]
+        },
+        {
             "title": "Programmer",
             "company": "LinkPower Technology Limited",
             "start": "July 2024",
@@ -23,7 +31,7 @@
             "description": [
                 "Developed an admin dashboard with <b>React TypeScript, React Router</b>, managing page content with modulated tabpages and config JSON",
                 "Built a search engine webpage with <b>React TypeScript, React Redux, AntDesign UI package, i18n package</b>",
-                "Engineered a train track dashboard page with <b>React TypeScript, Ploty Dash Python</b>",
+                "Engineered a train track dashboard page with <b>React TypeScript, Ploty Dash Python, MongoDB</b>",
                 "Created an AI chatroom webpage with <b>React TypeScript</b>",
                 "Performed version control through <b>Bitbucket</b>"
             ]
@@ -77,7 +85,7 @@
         },
         {
             "name": "Database",
-            "list": ["MySQL"]
+            "list": ["MongoDB", "MySQL"]
         }
     ],
     "languages": [
