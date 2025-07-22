@@ -136,7 +136,7 @@ const AcademicProjects: React.FC = () => {
     </div>
     <div className='academic-projects-container'>
       {projectList.map((project, index) => {
-        return <Card sx={{ maxWidth: 345 }} className='academic-projects-card' key={index}>
+        return <Card sx={{ width: '19.5%', minWidth: 340 }} className='academic-projects-card' key={index}>
           <CardActionArea onClick={() => { navigate(`/academic-projects${project.path}`) }}>
             <SmartCardMedia img={project.img} />
             <CardContent style={{ backgroundColor: '#363636', color: 'white' }}>

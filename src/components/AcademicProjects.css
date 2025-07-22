@@ -34,13 +34,12 @@
 .academic-projects-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 10px;
     padding: 5px;
 }
 
 .academic-projects-card {
-    width: 350px;
     min-height: 250px;
     background-color: var(--grey) !important;
 }
