@@ -21,6 +21,8 @@
             "start": "July 2025",
             "end": "Present",
             "description": [
+                "Composed a technical documentation for a Laravel Full-Stack Project",
+                "Developed website components using html and css"
             ]
         },
         {
@@ -64,6 +66,10 @@
             "list": ["Unity", "Godot", "XCode", "Android Studio"]
         },
         {
+            "name": "Framework",
+            "list": ["React", "Laravel"]
+        },
+        {
             "name": "Programming",
             "list": ["Python", "Java", "C#", "C++", "GDScript"]
         },
@@ -85,7 +91,7 @@
         },
         {
             "name": "Database",
-            "list": ["MongoDB", "MySQL"]
+            "list": ["MongoDB", "MySQL", "MySQL Workbench"]
         }
     ],
     "languages": [
