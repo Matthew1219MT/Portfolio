@@ -82,7 +82,7 @@ const AcademicProjects: React.FC = () => {
         style={loading ? { display: "none" } : {}}
         component="img"
         height="140"
-        image={require(`../resources/thumbnail/${img}`)}
+        image={`${process.env.PUBLIC_URL}/resources/thumbnail/${img}`}
         alt="project image"
         onLoad={() => { setLoading(false) }}
       />

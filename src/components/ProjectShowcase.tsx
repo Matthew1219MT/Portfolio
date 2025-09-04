@@ -34,7 +34,7 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
             style={loading ? { display: "none" } : {}}
             component="img"
             height="140"
-            image={require(`../resources/thumbnail/${img}`)}
+            image={`${process.env.PUBLIC_URL}/resources/thumbnail/${img}`}
             alt="project image"
             onLoad={()=>{setLoading(false)}}
           />
@@ -43,7 +43,7 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
 
     return <div className='project-showcase-container'>
         <div className='project-showcase-content'>
-            {project.video && <ReactPlayer url={project.video} controls={true} width="100%"/>}
+            {project.video && <div style={{borderRadius: 10, overflow: 'hidden'}}><ReactPlayer url={project.video} controls={true} width="100%"/></div>}
             <Divider className="project-showcase-divider"/>
             <div className='project-showcase-title'>{project.title}</div>
             <Divider className="project-showcase-divider"/>
@@ -67,7 +67,7 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
             {image_list.map((image, index) => (
                 // <p>{`../resources/gallery/${project.gallery}/${image}`}</p>
                 <ImageListItem key={index}>
-                    <img src={require(`../resources/gallery/${project.gallery}/${image}`)} alt={image} loading="lazy"/>
+                    <img src={`${process.env.PUBLIC_URL}/resources/gallery/${project.gallery}/${image}`} alt={image} loading="lazy"/>
                 </ImageListItem>
             ))}
             </ImageList>}

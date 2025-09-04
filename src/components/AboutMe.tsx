@@ -129,7 +129,7 @@ const AboutMe: React.FC = () => {
     return <div>
         <div className='about-me-container'>
             {contextHolder}
-            <Avatar alt="Avatar Image" src={require('../resources/Avatar.JPG')} sx={{ width: 300, height: 300}}/>
+            <Avatar alt="Avatar Image" src={`${process.env.PUBLIC_URL}/resources/Avatar.JPG`} sx={{ width: 300, height: 300}}/>
             <div className='about-me-sub-container'>
                 <h1>Chun Hei Tse</h1>
                 <div className='about-me-container'>
