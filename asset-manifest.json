@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a3167739.css",
-    "main.js": "/Portfolio/static/js/main.812af085.js",
+    "main.js": "/Portfolio/static/js/main.2549f699.js",
     "reactPlayerPreview.js": "/Portfolio/static/js/reactPlayerPreview.ed9165c6.chunk.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/BackToThePast.png": "/Portfolio/static/media/BackToThePast.7159412510573a2ac05a.png",
@@ -59,19 +59,18 @@
     "static/media/UrbanTreeExplorer_1.png": "/Portfolio/static/media/UrbanTreeExplorer_1.c58dbf4160544a9995e6.png",
     "static/media/WebRTC_3.png": "/Portfolio/static/media/WebRTC_3.ffc29dd510c5c47e1f96.png",
     "static/media/AndroidApp.png": "/Portfolio/static/media/AndroidApp.87c064e5c9149b6fceaf.png",
-    "static/media/Avatar.JPG": "/Portfolio/static/media/Avatar.0a38f50b1649b37d339b.JPG",
     "static/media/StudyWar_2.png": "/Portfolio/static/media/StudyWar_2.3b0f1001b3edaee2b6f7.png",
     "static/media/StudyWar_4.png": "/Portfolio/static/media/StudyWar_4.232b1243367caa31b030.png",
     "static/media/StudyWar_3.png": "/Portfolio/static/media/StudyWar_3.be13517ded682394374b.png",
     "static/media/LostAndFound.png": "/Portfolio/static/media/LostAndFound.43d70630fd06763e20d6.png",
     "index.html": "/Portfolio/index.html",
     "main.a3167739.css.map": "/Portfolio/static/css/main.a3167739.css.map",
-    "main.812af085.js.map": "/Portfolio/static/js/main.812af085.js.map",
+    "main.2549f699.js.map": "/Portfolio/static/js/main.2549f699.js.map",
     "reactPlayerPreview.ed9165c6.chunk.js.map": "/Portfolio/static/js/reactPlayerPreview.ed9165c6.chunk.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3167739.css",
-    "static/js/main.812af085.js"
+    "static/js/main.2549f699.js"
   ]
 }
