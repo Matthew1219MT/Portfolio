@@ -1,0 +1,14 @@
+[
+    {
+        "path": "/portfolio",
+        "title": "Personal Portfolio",
+        "video": "",
+        "description": "Personal portfolio for displaying personal information, academic projects and personal projects",
+        "content": ["Written in React TypeScript"],
+        "img": "PersonalPortfolio.png",
+        "tools": ["VSCode", "GitHub"],
+        "languages": ["TypeScript"],
+        "gallery": "PersonalPortfolio",
+        "imageCount": 0
+    }
+]

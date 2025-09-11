@@ -1,4 +1,3 @@
-import ProjectsInfo from '../resources/ProjectInfo.json';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -8,9 +7,15 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { Project } from './Utilities';
 import { Checkbox, Chip, Divider, FormControl, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, SelectChangeEvent, Skeleton } from '@mui/material';
-import './AcademicProjects.css';
+import './ProjectsList.css';
 
-const AcademicProjects: React.FC = () => {
+type Props = {
+  config: Project[],
+  title: string,
+  path: string
+}
+
+const AcademicProjects: React.FC<Props> = ({ config, title, path }) => {
 
   const navigate = useNavigate();
 
@@ -26,11 +31,11 @@ const AcademicProjects: React.FC = () => {
     return (unique_options);
   }
 
-  const [projectList, setProjectList] = useState<Project[]>(ProjectsInfo);
+  const [projectList, setProjectList] = useState<Project[]>(config);
   const [selectedTools, setSelectedTools] = useState<string[]>([]);
-  const [tools, setTools] = useState<string[]>(getUniqueOptions(ProjectsInfo, 'tools'));
+  const [tools, setTools] = useState<string[]>(getUniqueOptions(config, 'tools'));
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
-  const [languages, setLanguages] = useState<string[]>(getUniqueOptions(ProjectsInfo, 'languages'));
+  const [languages, setLanguages] = useState<string[]>(getUniqueOptions(config, 'languages'));
 
   const handleToolsChange = (event: SelectChangeEvent<typeof selectedTools>) => {
     const { target: { value } } = event;
@@ -44,8 +49,8 @@ const AcademicProjects: React.FC = () => {
 
   const filterProject = (filter_list: string[], filter: 'tools' | 'languages') => {
     const filtered_projects: Project[] = [];
-    for (let i = 0; i < ProjectsInfo.length; i++) {
-      const project: Project = ProjectsInfo[i];
+    for (let i = 0; i < config.length; i++) {
+      const project: Project = config[i];
       const list: string[] = project[filter];
       for (let j = 0; j < list.length; j++) {
         if (filter_list.includes(list[j])) {
@@ -121,7 +126,7 @@ const AcademicProjects: React.FC = () => {
 
   useEffect(() => {
     if (selectedTools.length === 0 && selectedLanguages.length === 0) { 
-      setProjectList(ProjectsInfo);
+      setProjectList(config);
       return; 
     }
     const filtered_projects: Project[] = [...filterProject(selectedTools, 'tools'), ...filterProject(selectedLanguages, 'languages')];
@@ -130,14 +135,14 @@ const AcademicProjects: React.FC = () => {
 
   return (<div className='academic-projects-foundation'>
     <div className='academic-projects-filter'>
-      <p style={{fontWeight: 'bold', textAlign: 'center'}}>OR Sort</p>
+      <p style={{fontWeight: 'bold', textAlign: 'center'}}>{title} | OR Sort</p>
       <ModulatedSelect title='Tools' value={selectedTools} onChange={handleToolsChange} options={tools}></ModulatedSelect>
       <ModulatedSelect title='Languages' value={selectedLanguages} onChange={handleLanguagesChange} options={languages}></ModulatedSelect>
     </div>
     <div className='academic-projects-container'>
       {projectList.map((project, index) => {
         return <Card sx={{ width: '19.5%', minWidth: 340 }} className='academic-projects-card' key={index}>
-          <CardActionArea onClick={() => { navigate(`/academic-projects${project.path}`) }}>
+          <CardActionArea onClick={() => { navigate(`${path}${project.path}`) }}>
             <SmartCardMedia img={project.img} />
             <CardContent style={{ backgroundColor: '#363636', color: 'white' }}>
               <Typography gutterBottom variant="h6" component="div">

@@ -2,18 +2,20 @@ import ReactPlayer from 'react-player/youtube';
 import './ProjectShowcase.css';
 import { useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
-import ProjectsInfo from '../resources/ProjectInfo.json';
 import { Project, shuffle } from './Utilities';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardActionArea, CardContent, CardMedia, Typography, Divider, Chip, Skeleton, ImageList, ImageListItem } from '@mui/material';
 
 type Props = {
-    project: Project
+    project: Project,
+    projects: Project[],
+    title: string,
+    path: string
 }
 
-const ProjectShowcase:React.FC<Props> = ({project}) => {
+const ProjectShowcase:React.FC<Props> = ({project, projects, title, path}) => {
 
-    const other_projects: Project[] = shuffle(ProjectsInfo.filter((obj) => obj.title !== project.title));
+    const other_projects: Project[] = shuffle(projects.filter((obj) => obj.title !== project.title));
 
     const image_list: string[] = Array.from({ length: project.imageCount }, (_, i) => `${project.gallery}_${i+1}.png`);
 
@@ -72,7 +74,7 @@ const ProjectShowcase:React.FC<Props> = ({project}) => {
             ))}
             </ImageList>}
             <Divider className="project-showcase-divider"/>
-            <button className="project-showcase-button" onClick={()=>{navigate('/academic-projects')}}>Back to Academic Projects</button>
+            <button className="project-showcase-button" onClick={()=>{navigate(path)}}>Back to {title}</button>
         </div>
         {!isMobile && <div className='project-showcase-project-list'>
             {other_projects.map((project, index) => {

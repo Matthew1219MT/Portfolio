@@ -1,8 +1,9 @@
 import { HashRouter, Routes, Route, useNavigate } from "react-router-dom";
-import AcademicProjects from "./AcademicProjects";
+import ProjectsList from "./ProjectsList";
 import './Foundation.css';
 import ProjectShowcase from "./ProjectShowcase";
-import ProjectsInfo from '../resources/ProjectInfo.json';
+import AcademicProjects from '../resources/AcademicProjects.json';
+import PersonalProjects from '../resources/PersonalProjects.json';
 import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
 import ProjectInfo from "./ProjectInfo";
@@ -21,10 +22,14 @@ const Foundation: React.FC = () => {
                     <Routes>
                         <Route path="/" element={<Homepage/>}/>
                         <Route path="/about-me" element={<AboutMe/>}/>
-                        <Route path="/academic-projects" element={<AcademicProjects/>}/>
+                        <Route path="/academic-projects" element={<ProjectsList config={AcademicProjects} title="Academic Projects" path="/academic-projects"/>}/>
+                        <Route path="/personal-projects" element={<ProjectsList config={PersonalProjects} title="Personal Projects" path="/personal-projects"/>}/>
                         <Route path="/project-info" element={<ProjectInfo/>}/>
-                        {ProjectsInfo.map((project, index) => {
-                            return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase project={project}/>}></Route>
+                        {AcademicProjects.map((project, index) => {
+                            return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase project={project} projects={AcademicProjects} title="Academic Projects" path="/academic-projects"/>}></Route>
+                        })}
+                        {PersonalProjects.map((project, index) => {
+                            return <Route key={index} path={`/personal-projects${project.path}`} element={<ProjectShowcase project={project} projects={PersonalProjects} title="Personal Projects" path="/personal-projects"/>}></Route>
                         })}
                         <Route path="/game/StudyWar" element={<UnityGame/>}/>
                     </Routes>
