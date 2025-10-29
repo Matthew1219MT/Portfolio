@@ -11,10 +11,49 @@
 
 .home-page-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     align-items: center;
     gap: 10px;
+}
+
+.home-page-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+}
+
+.home-page-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.home-page-custom-carousel {
+    width: 70%;
+}
+
+.home-page-custom-carousel-mobile {
+    width: 100%;
+}
+
+.home-page-carousel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    animation-name: button-entry;
+    animation-duration: 2s;
+}
+
+.home-page-img-div {
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
 }
 
 .home-page-title {
@@ -35,7 +74,7 @@
 
 .home-page-button {
     text-align: center;
-    min-width: 30%;
+    min-width: 50%;
     border-radius: 25px;
     background-color: var(--grey);
     padding: 10px;

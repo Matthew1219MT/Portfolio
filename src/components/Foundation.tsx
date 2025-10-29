@@ -20,7 +20,7 @@ const Foundation: React.FC = () => {
             <div className='foundation-body'>
                 <HashRouter>
                     <Routes>
-                        <Route path="/" element={<Homepage/>}/>
+                        <Route path="/" element={<Homepage academicProjects={AcademicProjects} personalProjects={PersonalProjects}/>}/>
                         <Route path="/about-me" element={<AboutMe/>}/>
                         <Route path="/academic-projects" element={<ProjectsList config={AcademicProjects} title="Academic Projects" path="/academic-projects"/>}/>
                         <Route path="/personal-projects" element={<ProjectsList config={PersonalProjects} title="Personal Projects" path="/personal-projects"/>}/>

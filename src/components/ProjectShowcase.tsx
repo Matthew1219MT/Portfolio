@@ -67,7 +67,6 @@ const ProjectShowcase:React.FC<Props> = ({project, projects, title, path}) => {
             {image_list.length > 0 && <Divider className="project-showcase-divider"/>}
             {image_list.length > 0 && <ImageList variant="masonry" cols={3} gap={8}>
             {image_list.map((image, index) => (
-                // <p>{`../resources/gallery/${project.gallery}/${image}`}</p>
                 <ImageListItem key={index}>
                     <img src={`${process.env.PUBLIC_URL}/resources/gallery/${project.gallery}/${image}`} alt={image} loading="lazy"/>
                 </ImageListItem>
