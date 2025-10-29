@@ -44,7 +44,7 @@ const UnityGame = () => {
       style={{ visibility: isLoaded ? "visible" : "hidden" }}
       onLoad={() => { setIsLoaded(true) }}
     />}
-    <div className='mobile'>You screen is too small, get a larger screen for the game : )</div>
+    <div className='mobile'>You screen is too small, get a larger screen for playing this epic game !</div>
   </div>
 }
 

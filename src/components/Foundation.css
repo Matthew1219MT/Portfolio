@@ -14,6 +14,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: black;
+    min-height: 100dvh;
 }
 
 .foundation-header, .foundation-body {
@@ -34,9 +35,10 @@ a {
 }
 
 .foundation-body {
-    min-height: 94vh;
     margin: 5px 5px 5px 5px;
+    flex: 1 1 auto;      
+    min-height: 0;     
+    overflow: auto;            
+    display: flex;                 
     padding: 10px;
-    flex: 1;
-    display: flex;
 }

@@ -15,7 +15,7 @@ type Props = {
 
 const ProjectShowcase:React.FC<Props> = ({project, projects, title, path}) => {
 
-    const other_projects: Project[] = shuffle(projects.filter((obj) => obj.title !== project.title));
+    const other_projects: Project[] = shuffle(projects.filter((obj) => obj.title !== project.title)).slice(0, (projects.length > 5 ? 5 : projects.length - 1));
 
     const image_list: string[] = Array.from({ length: project.imageCount }, (_, i) => `${project.gallery}_${i+1}.png`);
 

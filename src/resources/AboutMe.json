@@ -19,10 +19,13 @@
             "title": "Software Mastero Internship",
             "company": "AAkonsult Pty Ltd",
             "start": "July 2025",
-            "end": "Present",
+            "end": "October 2025",
             "description": [
-                "Composed a technical documentation for a Laravel Full-Stack Project",
-                "Developed website components using html and css"
+                "Composed a technical documentation for a <b>Laravel</b> Full-Stack Project",
+                "Developed website components using <b>html</b> and <b>css</b>",
+                "Carried out resarch and development for AI integration on <b>Laravel</b> project",
+                "Assessed and tested website accessibility compliacne with WCAG standards",
+                "Developed feature for locating user geolocation through IP address"
             ]
         },
         {

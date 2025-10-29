@@ -166,5 +166,17 @@
         "languages": [],
         "gallery": "UrbanTreeExplorer",
         "imageCount": 4
+    }, 
+    {
+        "path": "/eldercare",
+        "title": "Eldercare",
+        "video": "",
+        "description": "This group project aims to develop a mobile application to assist eldercare.",
+        "content": ["Group project, teamming with other 5 students", "Carried out version control with Github", "Developed with Android Studio"],
+        "img": "Eldercare.png",
+        "tools": ["Android Studio"],
+        "languages": ["java"],
+        "gallery": "Eldercare",
+        "imageCount": 0
     }
 ]
