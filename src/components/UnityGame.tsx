@@ -31,21 +31,21 @@ function useWindowSize() {
 
 const UnityGame = () => {
 
-    const [isLoaded, setIsLoaded] = useState<boolean>(false);
-    const { width, height } = useWindowSize();
+  const [isLoaded, setIsLoaded] = useState<boolean>(false);
+  const { width, height } = useWindowSize();
 
-    return <div className='game-container'>
-        {height >= 1000 && <iframe
-            src="https://matthew1219mt.github.io/StudyWar/"
-            className='game'
-            title="StudyWar"
-            width="1010"
-            height="650"
-            style={{visibility: isLoaded ? "visible" : "hidden"}}
-            onLoad={()=>{setIsLoaded(true)}}
-        />}
-        <div className='mobile'>You screen is too small, get a larger screen for the game : )</div>
-    </div>
+  return <div className='game-container'>
+    {width >= 1000 && <iframe
+      src="https://matthew1219mt.github.io/StudyWar/"
+      className='game'
+      title="StudyWar"
+      width="1010"
+      height="650"
+      style={{ visibility: isLoaded ? "visible" : "hidden" }}
+      onLoad={() => { setIsLoaded(true) }}
+    />}
+    <div className='mobile'>You screen is too small, get a larger screen for the game : )</div>
+  </div>
 }
 
 export default UnityGame;
