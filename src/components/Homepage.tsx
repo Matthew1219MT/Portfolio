@@ -34,12 +34,12 @@ const Homepage: React.FC<Props> = ({academicProjects, personalProjects}) => {
         return <div className={className}><Carousel className="home-page-carousel" autoplay arrows>
             {academicProjects.map((project, index) => {
                 return <div className="home-page-img-div" onClick={()=>navigate(`/academic-projects${project.path}`)}>
-                    <img style={{borderRadius: "25px"}} width={isMobile ? "480px" : ""} height="360px" alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
+                    <img style={{borderRadius: "25px"}} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
                 </div>
             })}
             {personalProjects.map((project, index) => {
                 return <div className="home-page-img-div" onClick={()=>navigate(`/personal-projects${project.path}`)}>
-                    <img style={{borderRadius: "25px"}} width={isMobile ? "480px" : ""} height="360px" alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
+                    <img style={{borderRadius: "25px"}} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
                 </div>
             })}
         </Carousel></div>;
