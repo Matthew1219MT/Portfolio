@@ -21,10 +21,10 @@
             "start": "July 2025",
             "end": "October 2025",
             "description": [
-                "Composed a technical documentation for a <b>Laravel</b> Full-Stack Project",
-                "Developed website components using <b>html</b> and <b>css</b>",
-                "Carried out resarch and development for AI integration on <b>Laravel</b> project",
-                "Assessed and tested website accessibility compliacne with WCAG standards",
+                "Composed a technical documentation for a Laravel Full-Stack Project",
+                "Developed website components using html and css",
+                "Carried out research and development for AI integration on Laravel project",
+                "Assessed and tested website accessibility compliance with WCAG standards",
                 "Developed feature for locating user geolocation through IP address"
             ]
         },
@@ -82,7 +82,7 @@
         },
         {
             "name": "Development Tools",
-            "list": ["Visual Studio Code",  "Eclipse"]
+            "list": ["Visual Studio Code",  "Eclipse", "MySQL Workbench", "Postman"]
         },
         {
             "name": "Version Control",
@@ -90,11 +90,11 @@
         },
         {
             "name": "Testing Tools",
-            "list": ["Jest"]
+            "list": ["Jest", "Cypress"]
         },
         {
             "name": "Database",
-            "list": ["MongoDB", "MySQL", "MySQL Workbench"]
+            "list": ["MongoDB", "MySQL"]
         }
     ],
     "languages": [
