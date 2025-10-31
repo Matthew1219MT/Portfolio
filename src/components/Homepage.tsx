@@ -19,7 +19,7 @@ const Homepage: React.FC<Props> = ({academicProjects, personalProjects}) => {
 
     const Menu = () => {
         return <div className={`home-page-menu${isMobile ? '-mobile' : ''}`}>
-            <div className="home-page-title">Chun Hei Tse's</div>
+            <div className="home-page-title">Matthew's</div>
             <div className="home-page-content">Portfolio</div>
             <button className="home-page-button" onClick={()=>{navigate('/about-me')}}>About Me</button>
             <button className="home-page-button" onClick={()=>{navigate('/academic-projects')}}>Academic Projects</button>
