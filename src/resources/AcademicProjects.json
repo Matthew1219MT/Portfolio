@@ -169,14 +169,14 @@
     }, 
     {
         "path": "/eldercare",
-        "title": "Eldercare",
-        "video": "",
+        "title": "ElderCare",
+        "video": "https://youtu.be/g5jrzWL_BRk",
         "description": "This group project aims to develop a mobile application to assist eldercare.",
         "content": ["Group project, teamming with other 5 students", "Carried out version control with Github", "Developed with Android Studio"],
-        "img": "Eldercare.png",
+        "img": "ElderCare.png",
         "tools": ["Android Studio"],
         "languages": ["java"],
-        "gallery": "Eldercare",
-        "imageCount": 0
+        "gallery": "ElderCare",
+        "imageCount": 6
     }
 ]
