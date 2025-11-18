@@ -8,6 +8,7 @@ import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
 import ProjectInfo from "./ProjectInfo";
 import UnityGame from "./UnityGame";
+import QRCode from "./QRCode";
 
 const Foundation: React.FC = () => {
 
@@ -32,6 +33,7 @@ const Foundation: React.FC = () => {
                             return <Route key={index} path={`/personal-projects${project.path}`} element={<ProjectShowcase project={project} projects={PersonalProjects} title="Personal Projects" path="/personal-projects"/>}></Route>
                         })}
                         <Route path="/game/StudyWar" element={<UnityGame/>}/>
+                        <Route path="/share" element={<QRCode/>}/>
                     </Routes>
                 </HashRouter>
             </div>

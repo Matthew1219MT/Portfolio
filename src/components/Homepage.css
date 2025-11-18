@@ -84,6 +84,18 @@
     animation-duration: 2s;
 }
 
+.home-page-button-special {
+    text-align: center;
+    min-width: 75%;
+    border-radius: 25px;
+    background-color: var(--light-yellow);
+    padding: 10px;
+    color: black;
+    border: none;
+    animation-name: button-entry;
+    animation-duration: 2s;
+}
+
 .home-page-button:hover {
     box-shadow: 0 0 5px 3px var(--light-yellow); 
 }

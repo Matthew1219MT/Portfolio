@@ -1,0 +1,13 @@
+.QR-code-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.QR-code-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
