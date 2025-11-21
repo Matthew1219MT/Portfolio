@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Carousel } from "antd";
-import { Project } from './Utilities';
+import { Project, shuffle } from './Utilities';
 import { isMobile } from 'react-device-detect';
 import './Homepage.css'
 
@@ -33,12 +33,12 @@ const Homepage: React.FC<Props> = ({academicProjects, personalProjects}) => {
 
     const CustumCarousel: React.FC<CarouselProps> = ({className}) => {
         return <div className={className}><Carousel className="home-page-carousel" autoplay arrows>
-            {academicProjects.map((project, index) => {
+            {shuffle(academicProjects).map((project, index) => {
                 return <div className="home-page-img-div" onClick={()=>navigate(`/academic-projects${project.path}`)} key={index}>
                     <img style={{borderRadius: "25px"}} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
                 </div>
             })}
-            {personalProjects.map((project, index) => {
+            {shuffle(academicProjects).map((project, index) => {
                 return <div className="home-page-img-div" onClick={()=>navigate(`/personal-projects${project.path}`)} key={index}>
                     <img style={{borderRadius: "25px"}} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
                 </div>
