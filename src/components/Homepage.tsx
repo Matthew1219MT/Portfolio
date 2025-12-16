@@ -34,11 +34,11 @@ const Homepage: React.FC<Props> = ({academicProjects, personalProjects}) => {
     const CustumCarousel: React.FC<CarouselProps> = ({className}) => {
         return <div className={className}><Carousel className="home-page-carousel" autoplay arrows>
             {shuffle(academicProjects).map((project, index) => {
-                return <div className="home-page-img-div" onClick={()=>navigate(`/academic-projects${project.path}`)} key={index}>
-                    <img style={{borderRadius: "25px"}} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
+                return <div className="home-page-img-div" key={index}>
+                    <img style={{borderRadius: "25px"}} onClick={()=>navigate(`/academic-projects${project.path}`)} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
                 </div>
             })}
-            {shuffle(academicProjects).map((project, index) => {
+            {shuffle(personalProjects).map((project, index) => {
                 return <div className="home-page-img-div" onClick={()=>navigate(`/personal-projects${project.path}`)} key={index}>
                     <img style={{borderRadius: "25px"}} height={isMobile ? "240px" : "360px"} alt={`image of ${project.title}`} src={`${process.env.PUBLIC_URL}/resources/thumbnail/${project.img}`}/>
                 </div>

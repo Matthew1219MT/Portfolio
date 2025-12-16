@@ -10,5 +10,17 @@
         "languages": ["TypeScript"],
         "gallery": "PersonalPortfolio",
         "imageCount": 0
+    },
+    {
+        "path": "/hkb-tracker",
+        "title": "Hong Kong Bus Tracker",
+        "video": "",
+        "description": "A web app for tracking estimated time of arrival of buses in Hong Kong",
+        "content": ["Written in React TypeScript and Next JS"],
+        "img": "HKBusTracker.png",
+        "tools": ["VSCode", "GitHub"],
+        "languages": ["TypeScript"],
+        "gallery": "HKBusTracker",
+        "imageCount": 4
     }
 ]
