@@ -170,7 +170,7 @@
     {
         "path": "/eldercare",
         "title": "ElderCare",
-        "video": "https://youtu.be/g5jrzWL_BRk",
+        "video": "https://youtu.be/cnPtKdZTn8k",
         "description": "This group project aims to develop a mobile application to assist eldercare.",
         "content": ["Group project, teamming with other 5 students", "Carried out version control with Github", "Developed with Android Studio"],
         "img": "ElderCare.png",
