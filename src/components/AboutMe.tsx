@@ -119,6 +119,26 @@ const AboutMe: React.FC = () => {
         </Card>);
     }
 
+    type CertificateProps = {
+        name: string,
+        organization: string,
+        date: string
+    }
+
+    const CertificateCard: React.FC<CertificateProps> = ({name, organization, date}) => {
+        return (<Card sx={{ maxWidth: 350, backgroundColor: '#363636' }} className='about-me-card'>
+            <Typography sx={{ color: 'white', fontSize: 22, fontWeight: 700 }}>
+                <u>{name}</u>
+            </Typography>
+            <div style={{ color: 'white', fontSize: '16px'}}>
+                Issued by: {organization}
+            </div>
+            <div style={{ color: 'white', fontSize: '16px'}}>
+                Issued at: {date}
+            </div>
+        </Card>);
+    }
+
     const BirthdayHandler = () => {
         const today: Date = new Date();
         if (today.getMonth() === 12 - 1 && today.getDate() === 19) {
@@ -179,6 +199,15 @@ const AboutMe: React.FC = () => {
             <div className='about-me-container'>
                 {CV.languages.map((lang)=>{
                     return <LanguageCard language={lang.language} level={lang.level}/>
+                })}
+            </div>
+        </div>
+        <Divider className="about-me-divider"/>
+        <div className='about-me-sub-container'>
+            <h2>Certificates</h2>
+            <div className='about-me-container'>
+                {CV.certificates.map((cert)=>{
+                    return <CertificateCard name={cert.name} organization={cert.organization} date={cert.date}/>
                 })}
             </div>
         </div>

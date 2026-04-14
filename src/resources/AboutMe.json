@@ -110,5 +110,27 @@
             "language": "Mandarin ",
             "level": "Intermediate"
         }
+    ],
+    "certificates": [
+        {
+            "name": "AWS Certified Cloud Practitioner",
+            "organization": "Amazon Web Services",
+            "date": "December 2025"
+        },
+        {
+            "name": "Certificate in Digital Video Production",
+            "organization": "FEVA WORKS IT Education Centre",
+            "date": "April 2023"
+        },
+        {
+            "name": "Certificate of using Adobe Premiere Pro",
+            "organization": "Adobe",
+            "date": "April 2023"
+        },
+        {
+            "name": "Certificate of using Adobe After Effects",
+            "organization": "Adobe",
+            "date": "April 2023"
+        }
     ]
 }
