@@ -109,7 +109,7 @@ const AboutMe: React.FC = () => {
     }
 
     const LanguageCard: React.FC<LanguageCardProps> = ({language, level}) => {
-        return (<Card sx={{ maxWidth: 350, backgroundColor: '#363636' }} className='about-me-card'>
+        return (<Card sx={{ minWidth: 150, backgroundColor: '#363636' }} className='about-me-card'>
             <Typography sx={{ color: 'white', fontSize: 22, fontWeight: 700 }}>
                 <u>{language}</u>
             </Typography>
