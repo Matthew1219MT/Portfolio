@@ -154,7 +154,7 @@ const AboutMe: React.FC = () => {
                 <h1>Chun Hei Tse</h1>
                 <div className='about-me-container'>
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Mail/>&nbsp;Matttse1219@gmail.com</div>} onClick={() => {CopyHandler('Matttse1219@gmail.com')}}/>
-                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><LinkedIn/>&nbsp;Chun Hei Tse</div>} onClick={() => {window.open('https://www.linkedin.com/in/chun-hei-tse-7a8785300/', "_blank", "noreferrer")}}/>
+                    <Chip className='about-me-chip' label={<div className='about-me-chip-label'><LinkedIn/>&nbsp;Chun Hei Tse</div>} onClick={() => {window.open('https://www.linkedin.com/in/matthew-chun-hei-tse/', "_blank", "noreferrer")}}/>
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><GitHub/>&nbsp;Matthew1219MT</div>} onClick={() => {window.open('https://github.com/Matthew1219MT', "_blank", "noreferrer")}}/>
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Flag/>&nbsp;Hong Kong Citizen</div>} onClick={() => {messageApi.open({ type: 'info', content: 'Hello ! 你食咗飯未 ?'});}}/>
                     <Chip className='about-me-chip' label={<div className='about-me-chip-label'><Cake/>&nbsp;19 Dec 2002</div>} onClick={() => {BirthdayHandler()}}/>
