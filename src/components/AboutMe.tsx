@@ -122,13 +122,14 @@ const AboutMe: React.FC = () => {
     type CertificateProps = {
         name: string,
         organization: string,
-        date: string
+        date: string,
+        link?: string
     }
 
-    const CertificateCard: React.FC<CertificateProps> = ({name, organization, date}) => {
+    const CertificateCard: React.FC<CertificateProps> = ({name, organization, date, link}) => {
         return (<Card sx={{ maxWidth: 350, backgroundColor: '#363636' }} className='about-me-card'>
             <Typography sx={{ color: 'white', fontSize: 22, fontWeight: 700 }}>
-                <u>{name}</u>
+                {link ? <u><a href={link} target="_blank">{name}</a></u>: <u>{name}</u>}
             </Typography>
             <div style={{ color: 'white', fontSize: '16px'}}>
                 Issued by: {organization}
@@ -207,7 +208,7 @@ const AboutMe: React.FC = () => {
             <h2>Certificates</h2>
             <div className='about-me-container'>
                 {CV.certificates.map((cert)=>{
-                    return <CertificateCard name={cert.name} organization={cert.organization} date={cert.date}/>
+                    return <CertificateCard name={cert.name} organization={cert.organization} date={cert.date} link={cert.link}/>
                 })}
             </div>
         </div>
