@@ -74,7 +74,7 @@
         },
         {
             "name": "Programming",
-            "list": ["Python", "Java", "C#", "C++", "GDScript"]
+            "list": ["Python", "Java", "C#", "C++", "GDScript", "Alloy", "Ada"]
         },
         {
             "name": "Web Development",
@@ -82,7 +82,7 @@
         },
         {
             "name": "Development Tools",
-            "list": ["Visual Studio Code",  "Eclipse", "MySQL Workbench", "Postman"]
+            "list": ["Visual Studio Code", "IntelliJ IDEA", "Eclipse", "MySQL Workbench", "Postman"]
         },
         {
             "name": "Version Control",
