@@ -182,7 +182,7 @@
     {
         "path": "/multi-threaded-dictionary-server",
         "title": "Multi-threaded Dictionary Server",
-        "video": "",
+        "video": "https://youtu.be/jHEP-eSufVw",
         "description": "Using a client-server architecture, design and implement a multi-threaded server that allows concurrent clients to search the meaning(s) of a word, add a new word, and remove an existing word.",
         "content": ["Connect user and server through TCP connection", "Applied read/write lock to ensure concurrency", "Developed GUI with Swing library", "Implemented JSON for data transmission and data storage"],
         "img": "MTDS.png",
