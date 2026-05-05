@@ -9,7 +9,8 @@
         "tools": ["Godot", "GitHub"],
         "languages": ["GDScript"],
         "gallery": "DriveMaster",
-        "imageCount": 9
+        "imageCount": 9,
+        "date": "Aug 2023 – May 2024"
     },
     {
         "path": "/study-war",
@@ -21,7 +22,8 @@
         "tools": ["Unity", "VS Code"],
         "languages": ["C#"],
         "gallery": "StudyWar",
-        "imageCount": 9
+        "imageCount": 9,
+        "date": "Jan 2023 – May 2023"
     },
     {
         "path": "/library-admin-system",
@@ -33,7 +35,8 @@
         "tools": ["Eclipse"],
         "languages": ["Java"],
         "gallery": "LibraryManagementSystem",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Nov 2022 - Dec 2022"
     },
     {
         "path": "/online-lost-and-found-system",
@@ -45,7 +48,8 @@
         "tools": ["VS Code"],
         "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
         "gallery": "LostAndFound",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Oct 2022 - Dec 2022"
     },
     {
         "path": "/ios-calculator",
@@ -57,7 +61,8 @@
         "tools": ["XCode"],
         "languages": ["Swift"],
         "gallery": "IOSCalculator",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Sep 2022 - Oct 2022"
     },
     {
         "path": "/android-app",
@@ -69,7 +74,8 @@
         "tools": ["Android Studio"],
         "languages": ["Java"],
         "gallery": "AndroidApp",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Nov 2022 - Dec 2022"
     },
     {
         "path": "/infinity-glass",
@@ -81,7 +87,8 @@
         "tools": ["Davinci Resolve"],
         "languages": [],
         "gallery": "InfinityGlasses",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Sep 2021 – Dec 2021"
     },
     {
         "path": "/welfare-system-of-europe",
@@ -93,7 +100,8 @@
         "tools": ["Davinci Resolve"],
         "languages": [],
         "gallery": "WelfareSystem",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Apr 2023 – May 2023"
     },
     {
         "path": "/toohak-3D",
@@ -105,7 +113,8 @@
         "tools": ["Unity", "VS Code"],
         "languages": ["C#"],
         "gallery": "Toohak3D",
-        "imageCount": 7
+        "imageCount": 7,
+        "date": "Jan 2023 – May 2023"
     }, 
     {
         "path": "/back-to-the-past",
@@ -117,7 +126,8 @@
         "tools": ["3D Blender", "Davinci Resolve"],
         "languages": [],
         "gallery": "BackToThePast",
-        "imageCount": 6
+        "imageCount": 6,
+        "date": "Jan 2022 – May 2022"
     },
     {
         "path": "/cobra-maneuver",
@@ -129,7 +139,8 @@
         "tools": ["3DS Max"],
         "languages": [],
         "gallery": "CobraManeuver",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Sep 2022 - Dec 2022"
     },
     {
         "path": "/web-RTC",
@@ -141,7 +152,8 @@
         "tools": ["VS Code", "GitHub"],
         "languages": ["JavaScript", "HTML"],
         "gallery": "WebRTC",
-        "imageCount": 4
+        "imageCount": 4,
+        "date": "Oct 2023 - Dec 2023"
     },
     {
         "path": "/assistive-device-development-for-SMA-children",
@@ -153,7 +165,8 @@
         "tools": ["3D Blender"],
         "languages": [],
         "gallery": "SMA",
-        "imageCount": 7
+        "imageCount": 7,
+        "date": "Sep 2020 – Nov 2020"
     }, 
     {
         "path": "/urban-tree-explorer",
@@ -165,7 +178,8 @@
         "tools": ["WordPress"],
         "languages": [],
         "gallery": "UrbanTreeExplorer",
-        "imageCount": 4
+        "imageCount": 4,
+        "date": "Mar 2025 – Jun 2025"
     }, 
     {
         "path": "/eldercare",
@@ -177,7 +191,8 @@
         "tools": ["Android Studio"],
         "languages": ["java"],
         "gallery": "ElderCare",
-        "imageCount": 9
+        "imageCount": 9,
+        "date": "July 2025 - Oct 2025"
     },
     {
         "path": "/multi-threaded-dictionary-server",
@@ -189,6 +204,7 @@
         "tools": ["IntelliJ IDEA"],
         "languages": ["java"],
         "gallery": "MTDS",
-        "imageCount": 5
+        "imageCount": 5,
+        "date": "March 2025 - April 2025"
     }
 ]

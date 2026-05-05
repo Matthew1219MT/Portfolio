@@ -4,23 +4,25 @@
         "title": "Personal Portfolio",
         "video": "",
         "description": "Personal portfolio for displaying personal information, academic projects and personal projects",
-        "content": ["Written in React TypeScript"],
+        "content": ["Written in React TypeScript", "Implemented HashRouter for sub-pages routing", "Utilized MaterialUI for React Components", "Applied flexible content updates with JSON storage", "Uses dynamic CSS to handle PC and phone access"],
         "img": "PersonalPortfolio.png",
         "tools": ["VSCode", "GitHub"],
         "languages": ["TypeScript"],
         "gallery": "PersonalPortfolio",
-        "imageCount": 0
+        "imageCount": 0,
+        "date": "Apr 2025 – Present"
     },
     {
         "path": "/hkb-tracker",
         "title": "Hong Kong Bus Tracker",
         "video": "",
         "description": "A web app for tracking estimated time of arrival of buses in Hong Kong",
-        "content": ["Written in React TypeScript and Next JS"],
+        "content": ["Written in React TypeScript and Next JS", "Implemented i18m for supporting 3 languages", "Utilized public API published by Data.gov.hk", "Used session storage to store user's configuration and preference"],
         "img": "HKBusTracker.png",
         "tools": ["VSCode", "GitHub"],
         "languages": ["TypeScript"],
         "gallery": "HKBusTracker",
-        "imageCount": 4
+        "imageCount": 4,
+        "date": "Jul 2025 – Jan 2026"
     }
 ]

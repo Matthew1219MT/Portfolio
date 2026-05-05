@@ -8,7 +8,8 @@ export type Project = {
     tools: string[],
     languages: string[],
     gallery: string,
-    imageCount: number
+    imageCount: number,
+    date: string
 }
 
 export const shuffle = (array: any[]): any[] => {
