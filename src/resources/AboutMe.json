@@ -1,65 +1,64 @@
 {
-    "description": "A highly passionate and creative event coordinator with strong organizational and communication skills. A quick learner with eagerness to continuously learn and adapt. Proven ability to work under pressure with high resilience for tasks requiring independence or collaboration. Willing to cooperate with others to deliver results on time with excellence.",
+    "description": "Full-stack software engineer currently completing a Master of IT at the University of Melbourne (WAM 81), with industry experience building React TypeScript and Python systems in production environments. Strong track record delivering web applications end-to-end and leading development teams across academic and professional projects.",
     "education": [
         {
             "title": "Master of Information Technology",
             "university": "The University of Melbourne",
             "start": "2025",
-            "end": "present"
+            "end": "present",
+            "wam": "81"
         },
         {
-            "title": "Bsc(Hons)Internet and Multimedia Technologies",
+            "title": "BSc (Hons) Internet and Multimedia Technologies",
             "university": "Hong Kong Polytechnic University",
             "start": "2020",
-            "end": "2024"
+            "end": "2024",
+            "gpa": "3.38"
         }
     ],
     "employment": [
         {
-            "title": "Software Mastero Maestro",
+            "title": "Software Maestro Internship",
             "company": "AAkonsult Pty Ltd",
-            "start": "July 2025",
-            "end": "October 2025",
+            "start": "Jul 2025",
+            "end": "Oct 2025",
             "description": [
-                "Composed a technical documentation for a Laravel Full-Stack Project",
-                "Developed website components using html and css",
-                "Carried out research and development for AI integration on Laravel project",
-                "Assessed and tested website accessibility compliance with WCAG standards",
-                "Developed feature for locating user geolocation through IP address"
+                "Authored a 68-page technical knowledge-transfer document covering a Laravel full-stack project end-to-end (front-end, back-end, database schema, and third-party integrations such as custom-domain registration and SMTP); actively referenced by onboarded interns post-handover.",
+                "Designed and implemented a proof-of-concept Multi-Armed Bandit model in Python to predict donation trends from user demographics and time, deployed on AWS EC2; sole contributor from architecture to implementation.",
+                "Engineered an IP-based geolocation feature with PHP and Laravel to collect demographic context for the AI model.",
+                "Audited website accessibility using WCAG testing tools, identifying 5–10 issues per site and reporting findings to senior developers."
             ]
         },
         {
             "title": "Programmer",
             "company": "LinkPower Technology Limited",
-            "start": "July 2024",
-            "end": "January 2025",
+            "start": "Jul 2024",
+            "end": "Jan 2025",
             "description": [
-                "Developed an admin dashboard with <b>React TypeScript, React Router</b>, managing page content with modulated tabpages and config JSON",
-                "Built a search engine webpage with <b>React TypeScript, React Redux, AntDesign UI package, i18n package</b>",
-                "Engineered a train track dashboard page with <b>React TypeScript, Ploty Dash Python, MongoDB</b>",
-                "Created an AI chatroom webpage with <b>React TypeScript</b>",
-                "Performed version control through <b>Bitbucket</b>"
+                "Rebuilt a legacy Vue-based internal search engine from scratch using <b>React TypeScript</b> and <b>Ant Design</b>, adding Redux state management, i18n, responsive layout, and an AI response section; tested with <b>Jest</b> and deployed to production.",
+                "Developed a service-monitoring admin dashboard with <b>React TypeScript</b> and <b>React Router</b> to track internal service availability across the company; deployed to production.",
+                "Engineered a real-time train track status dashboard for an external client using <b>React TypeScript</b> and <b>Plotly Dash (Python)</b>, monitoring 3 live tracks backed by <b>MongoDB</b> with per-second data refresh.",
+                "Built an AI chatroom interface with <b>React TypeScript</b>, integrating streaming responses from the company's internal AI server via API streaming."
             ]
         },
         {
             "title": "Project Technical Assistant",
             "company": "Hong Kong Polytechnic University Information Technology Service Office",
-            "start": "June 2023",
-            "end": "August 2023",
+            "start": "Jun 2023",
+            "end": "Aug 2023",
             "description": [
-                "Developed a photo taking software that can send images to user through email with <b>Unity</b>",
-                "Performed version control through <b>Fork</b>"
+                "Built a kiosk photo-taking application using <b>Unity (C#)</b> that automatically emailed captured images to attendees; deployed and served approximately 50 users at the PolyU Orientation Day."
             ]
         },
         {
             "title": "Student Assistant",
             "company": "Hong Kong Polytechnic University Industrial Center",
-            "start": "December 2022",
-            "end": "June 2024",
+            "start": "Dec 2022",
+            "end": "Jun 2024",
             "description": [
-                "Developed an application to detect and display the change in color of specimens with <b>Python, OpenCV, Tkinter</b>",
-                "Built a back-end system to update staff status automatically with <b>Python, MQTT</b>",
-                "Engineered an automatic system to perform basic eye checking <b>Python, OpenCV</b>"
+                "Developed a desktop application using <b>Python</b>, <b>OpenCV</b>, and <b>Tkinter</b> to detect and visualise colour changes in Covid specimen samples, supporting lab validation workflows.",
+                "Built a <b>Python</b> and <b>MQTT</b> back-end system to automatically broadcast real-time availability and location status for approximately 50 staff, eliminating the need to manually consult class schedules.",
+                "Prototyped an automated vision-screening tool using <b>Python</b> and <b>OpenCV</b> to detect short-sightedness and long-sightedness."
             ]
         }
     ],
@@ -70,7 +69,7 @@
         },
         {
             "name": "Framework",
-            "list": ["React", "Laravel"]
+            "list": ["React", "Next.js", "Laravel"]
         },
         {
             "name": "Programming",
@@ -95,19 +94,23 @@
         {
             "name": "Database",
             "list": ["MongoDB", "MySQL"]
+        },
+        {
+            "name": "Cloud",
+            "list": ["AWS (Certified Cloud Practitioner)"]
         }
     ],
     "languages": [
         {
             "language": "English",
-            "level": "7.5 in IELTS (2/2024)"
+            "level": "IELTS 7.5 (Feb 2024)"
         },
         {
-            "language": "Cantonese ",
+            "language": "Cantonese",
             "level": "Native Speaker"
         },
         {
-            "language": "Mandarin ",
+            "language": "Mandarin",
             "level": "Intermediate"
         }
     ],
@@ -115,23 +118,23 @@
         {
             "name": "AWS Certified Cloud Practitioner",
             "organization": "Amazon Web Services",
-            "date": "December 2025",
+            "date": "Dec 2025",
             "link": "https://cp.certmetrics.com/amazon/en/public/verify/credential/1218a1cd651b46b58908ca738a9d0c87"
         },
         {
             "name": "Certificate in Digital Video Production",
             "organization": "FEVA WORKS IT Education Centre",
-            "date": "April 2023"
+            "date": "Apr 2023"
         },
         {
             "name": "Certificate of using Adobe Premiere Pro",
             "organization": "Adobe",
-            "date": "April 2023"
+            "date": "Apr 2023"
         },
         {
             "name": "Certificate of using Adobe After Effects",
             "organization": "Adobe",
-            "date": "April 2023"
+            "date": "Apr 2023"
         }
     ]
 }

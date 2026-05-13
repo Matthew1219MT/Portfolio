@@ -1,210 +1,268 @@
 [
     {
-        "path": "/drive-master",
-        "title": "Master Drive - 3D Multiplayer Driving Simulator",
-        "video": "https://youtu.be/9y5wvXi1GQc",
-        "description": "Master Drive is an online multiplayer driving simulator which aims to create a realistic driving simulation game for students to play and learn, and improve student’s traffic safety awareness and cultivate social responsibility. In Master Drive, other than operating a realistic vehicle, players have to obey the road laws while gaining points by driving towards a random generated zone.",
-        "content": ["Final year group project", "Leader of a 3 students group", "Major framework contructed with MVVM strucutre", "Responsible for game framework, player character, UI and HUD development"],
-        "img": "DriveMaster.png",
-        "tools": ["Godot", "GitHub"],
-        "languages": ["GDScript"],
-        "gallery": "DriveMaster",
-        "imageCount": 9,
-        "date": "Aug 2023 – May 2024"
-    },
-    {
-        "path": "/study-war",
-        "title": "Study War - 2D Rougelike game",
-        "video": "https://youtu.be/atSQNczFSOY",
-        "description": "The key concept of Study War is to create a challenging and replayable experience that combines traditional roguelike game mechanics with retro-style pixel graphics. This includes designing the game with procedural generation, permanent death, resource management, exploration and discovery, and pixel art style features. Procedural generation is an important aspect of gameplay, as it generates random levels, enemies, props and other game elements to keep the gameplay fresh and engaging. This ensures that each game session is unique and challenging for the player. Permadeath is another important gameplay mechanic that creates high-stakes gameplay and encourages players to learn from their mistakes and improve their skills. This also adds to the replayability of the game as players will want to keep trying to go deeper into the dungeon or unlock more different weapons and monsters. Resource management requires players to carefully manage their resources and decide to enter all rooms to gain more currency or enter fewer rooms to maintain a healthy blood level. This can add a strategic aspect to the gameplay. Exploration and discovery are also essential, as they encourage players to explore and discover new areas, enemies, and props. This can generate new strategies and possibilities to help players advance further in the game. In short, the key concept of Study War is to create a challenging and immersive experience that encourages players to experiment, explore and improve their skills while combining classic roguelike gameplay mechanics with retro-style graphics.",
-        "content": ["Leader of a 4 students group", "Designed the algorithm for random map generation", "Responsible for game framework, player character, game environment and UI development"],
-        "img": "StudyWar.png",
-        "tools": ["Unity", "VS Code"],
-        "languages": ["C#"],
-        "gallery": "StudyWar",
-        "imageCount": 9,
-        "date": "Jan 2023 – May 2023"
-    },
-    {
-        "path": "/library-admin-system",
-        "title": "Library Management System",
-        "video": "https://youtu.be/8bH0QCbVa1Y",
-        "description": "This library admin system allows uer to add, edit and delete books record, user can also modify book status such as 'borrow', 'return' and 'reserve'. Advanced feature like title search and sorting by ISBN or title are also supported.",
-        "content": ["Group project, teamming with another student", "Developed with Object-Oriented Programming"],
-        "img": "LibraryManagementSystem.png",
-        "tools": ["Eclipse"],
+        "path": "/multi-threaded-dictionary-server",
+        "title": "Multi-threaded Dictionary Server",
+        "video": "https://youtu.be/jHEP-eSufVw",
+        "description": "Designed and implemented a concurrent client-server dictionary application in Java. Clients connect via TCP and can search, add, or remove words concurrently; read/write locks ensure thread safety. Features a Swing GUI and uses JSON for both data transmission and persistent storage.",
+        "content": [
+            "Designed a concurrent client-server architecture using TCP connection and Java",
+            "Applied read/write locks to ensure thread-safe concurrent access",
+            "Developed GUI with Swing library for client-side interaction",
+            "Implemented JSON for data transmission and persistent storage"
+        ],
+        "img": "MTDS.png",
+        "tools": ["IntelliJ IDEA"],
         "languages": ["Java"],
-        "gallery": "LibraryManagementSystem",
-        "imageCount": 0,
-        "date": "Nov 2022 - Dec 2022"
+        "gallery": "MTDS",
+        "imageCount": 5,
+        "date": "Mar 2025 -- Apr 2025"
     },
     {
-        "path": "/online-lost-and-found-system",
-        "title": "Online Lost and Found System",
-        "video": "https://youtu.be/-CQODUmZ-Hs",
-        "description": "This is a online lost and found system, offering login system for user to post their lost or found items.",
-        "content": ["Individual project"],
-        "img": "LostAndFound.png",
-        "tools": ["VS Code"],
-        "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
-        "gallery": "LostAndFound",
-        "imageCount": 0,
-        "date": "Oct 2022 - Dec 2022"
-    },
-    {
-        "path": "/ios-calculator",
-        "title": "IOS Calculator",
-        "video": "https://youtu.be/UclXB3TGCxk",
-        "description": "This is an IOS calculator app, supports binary, decimal and hexdecminal calculation and random value generation ",
-        "content": ["Individual project"],
-        "img": "IOSCalculator.png",
-        "tools": ["XCode"],
-        "languages": ["Swift"],
-        "gallery": "IOSCalculator",
-        "imageCount": 0,
-        "date": "Sep 2022 - Oct 2022"
-    },
-    {
-        "path": "/android-app",
-        "title": "Sandbox Mini Game",
-        "video": "https://youtu.be/JPNvxK6WqMM",
-        "description": "This is a mini sandbox game, allows user to insert and delete icons which moves around the screen and bounce back upon hitting the edge of the screen",
-        "content": ["Individual project"],
-        "img": "AndroidApp.png",
+        "path": "/eldercare",
+        "title": "ElderCare",
+        "video": "https://youtu.be/cnPtKdZTn8k",
+        "description": "A group project of 6 to develop an Android mobile application to assist eldercare. Built with Android Studio and Java, with version control managed through GitHub.",
+        "content": [
+            "Group project of 6; developed an Android eldercare mobile application",
+            "Built with Android Studio and Java",
+            "Carried out version control with GitHub"
+        ],
+        "img": "ElderCare.png",
         "tools": ["Android Studio"],
         "languages": ["Java"],
-        "gallery": "AndroidApp",
-        "imageCount": 0,
-        "date": "Nov 2022 - Dec 2022"
+        "gallery": "ElderCare",
+        "imageCount": 9,
+        "date": "Jul 2025 -- Oct 2025"
     },
-    {
-        "path": "/infinity-glass",
-        "title": "Infinity-glass PV",
-        "video": "https://youtu.be/WjW6a7ZGf7A",
-        "description": "This is a promotion video for promoting a conceptial product, the infinity-glass",
-        "content": ["Group project"],
-        "img": "InfinityGlasses.png",
-        "tools": ["Davinci Resolve"],
-        "languages": [],
-        "gallery": "InfinityGlasses",
-        "imageCount": 0,
-        "date": "Sep 2021 – Dec 2021"
-    },
-    {
-        "path": "/welfare-system-of-europe",
-        "title": "Welfare System of Europe",
-        "video": "https://youtu.be/5QMFE3sMulw",
-        "description": "This is a presentation video for an academic project, discussing the welfare system in the West",
-        "content": ["Group project, teamming with other 3 students"],
-        "img": "WelfareSystem.png",
-        "tools": ["Davinci Resolve"],
-        "languages": [],
-        "gallery": "WelfareSystem",
-        "imageCount": 0,
-        "date": "Apr 2023 – May 2023"
-    },
-    {
-        "path": "/toohak-3D",
-        "title": "Toohak 3D",
-        "video": "https://youtu.be/6NQb9DSFOFw",
-        "description": "The main objective of Toohak 3D is to provide a 3D environment for students to do multiple choice questions in a more attractive and interactive way.",
-        "content": ["Group project, teamming with other 3 students"],
-        "img": "Toohak3D.png",
-        "tools": ["Unity", "VS Code"],
-        "languages": ["C#"],
-        "gallery": "Toohak3D",
-        "imageCount": 7,
-        "date": "Jan 2023 – May 2023"
-    }, 
-    {
-        "path": "/back-to-the-past",
-        "title": "Back To The Past PV",
-        "video": "https://youtu.be/lwVbI44llqI",
-        "description": "This is a promotion video for a conceptial game, Back To The Past, it is a 3D open world exploration game, involves interesting mechanics such as time travel",
-        "content": ["Individual project"],
-        "img": "BackToThePast.png",
-        "tools": ["3D Blender", "Davinci Resolve"],
-        "languages": [],
-        "gallery": "BackToThePast",
-        "imageCount": 6,
-        "date": "Jan 2022 – May 2022"
-    },
-    {
-        "path": "/cobra-maneuver",
-        "title": "Cobra maneuver",
-        "video": "https://youtu.be/mwkN7_QfB78",
-        "description": "This is a simple 3D animation",
-        "content": ["Individual project"],
-        "img": "CobraManeuver.png",
-        "tools": ["3DS Max"],
-        "languages": [],
-        "gallery": "CobraManeuver",
-        "imageCount": 0,
-        "date": "Sep 2022 - Dec 2022"
-    },
-    {
-        "path": "/web-RTC",
-        "title": "Online Broadcast System",
-        "video": "",
-        "description": "In this project, our team implemented a video monitoring system, which allows user to broadcast his/her live video footage to other user for monitoring through standard Web browser. Other than that, our team also implemented some advanced features such as viewer counter, video recording, motion detection and face tracking.",
-        "content": ["Group project, teamming with another student", "Developed with WebRTC api"],
-        "img": "WebRTC.png",
-        "tools": ["VS Code", "GitHub"],
-        "languages": ["JavaScript", "HTML"],
-        "gallery": "WebRTC",
-        "imageCount": 4,
-        "date": "Oct 2023 - Dec 2023"
-    },
-    {
-        "path": "/assistive-device-development-for-SMA-children",
-        "title": "Assistive device development for SMA children",
-        "video": "https://youtu.be/b9GsPJplkHM",
-        "description": "Our group aims to create a Switch Joy-Con adaptor for a SMA children which can improve his gaming experience.",
-        "content": ["Group project, teamming with another 3 student", "Developed with Arduino"],
-        "img": "SMA.png",
-        "tools": ["3D Blender"],
-        "languages": [],
-        "gallery": "SMA",
-        "imageCount": 7,
-        "date": "Sep 2020 – Nov 2020"
-    }, 
     {
         "path": "/urban-tree-explorer",
         "title": "Urban Tree Explorer",
         "video": "https://youtu.be/lIl9eFFzvNU",
-        "description": "This group project aims to practice the use of Scrum SDLC. The project consist of 3 sprints, two weeks per sprint. During the sprint, SCRUM practices were done such as Sprint meeting, Sprint Retrospective and Sprint Review. Detailed documentation were also carried out during the process.",
-        "content": ["Group project, teamming with other 4 students", "Developed with SCRUM Software Development Lifecycle Model", "Developed with WordPress"],
+        "description": "A group project of 5 practising the SCRUM software development lifecycle. Delivered across 3 two-week sprints including sprint planning, retrospectives, and reviews. Built with WordPress with detailed documentation produced throughout.",
+        "content": [
+            "Group project of 5; developed with SCRUM SDLC across 3 sprints",
+            "Conducted sprint planning, retrospectives, and reviews each sprint",
+            "Built with WordPress with detailed documentation throughout the lifecycle"
+        ],
         "img": "UrbanTreeExplorer.png",
         "tools": ["WordPress"],
         "languages": [],
         "gallery": "UrbanTreeExplorer",
         "imageCount": 4,
-        "date": "Mar 2025 – Jun 2025"
-    }, 
-    {
-        "path": "/eldercare",
-        "title": "ElderCare",
-        "video": "https://youtu.be/cnPtKdZTn8k",
-        "description": "This group project aims to develop a mobile application to assist eldercare.",
-        "content": ["Group project, teamming with other 5 students", "Carried out version control with Github", "Developed with Android Studio"],
-        "img": "ElderCare.png",
-        "tools": ["Android Studio"],
-        "languages": ["java"],
-        "gallery": "ElderCare",
-        "imageCount": 9,
-        "date": "July 2025 - Oct 2025"
+        "date": "Mar 2025 -- Jun 2025"
     },
     {
-        "path": "/multi-threaded-dictionary-server",
-        "title": "Multi-threaded Dictionary Server",
-        "video": "https://youtu.be/jHEP-eSufVw",
-        "description": "Using a client-server architecture, design and implement a multi-threaded server that allows concurrent clients to search the meaning(s) of a word, add a new word, and remove an existing word.",
-        "content": ["Connect user and server through TCP connection", "Applied read/write lock to ensure concurrency", "Developed GUI with Swing library", "Implemented JSON for data transmission and data storage"],
-        "img": "MTDS.png",
-        "tools": ["IntelliJ IDEA"],
-        "languages": ["java"],
-        "gallery": "MTDS",
-        "imageCount": 5,
-        "date": "March 2025 - April 2025"
+        "path": "/web-RTC",
+        "title": "Online Broadcast System",
+        "video": "",
+        "description": "A group project implementing a live video monitoring system using WebRTC. Users can broadcast video footage to others via a standard web browser. Features include a viewer counter, video recording, motion detection, and face tracking.",
+        "content": [
+            "Built a live video monitoring system using WebRTC API",
+            "Implemented viewer counter, video recording, motion detection, and face tracking",
+            "Group project developed with JavaScript and HTML"
+        ],
+        "img": "WebRTC.png",
+        "tools": ["VS Code", "GitHub"],
+        "languages": ["JavaScript", "HTML"],
+        "gallery": "WebRTC",
+        "imageCount": 4,
+        "date": "Oct 2023 -- Dec 2023"
+    },
+    {
+        "path": "/drive-master",
+        "title": "Master Drive - 3D Multiplayer Driving Simulator",
+        "video": "https://youtu.be/9y5wvXi1GQc",
+        "description": "Final year group project; a 3D online multiplayer driving simulator aimed at improving traffic safety awareness. Led a team of 3 using Godot and GDScript. Constructed the major framework with an MVVM structure and was responsible for game logic, player character, UI, and HUD development.",
+        "content": [
+            "Led a team of 3 as final year group project",
+            "Constructed major game framework using MVVM architecture with Godot and GDScript",
+            "Responsible for game logic, player character, UI, and HUD development"
+        ],
+        "img": "DriveMaster.png",
+        "tools": ["Godot", "GitHub"],
+        "languages": ["GDScript"],
+        "gallery": "DriveMaster",
+        "imageCount": 9,
+        "date": "Aug 2023 -- May 2024"
+    },
+    {
+        "path": "/study-war",
+        "title": "Study War - 2D Roguelike Game",
+        "video": "https://youtu.be/atSQNczFSOY",
+        "description": "Led a team of 4 to build a 2D roguelike game with Unity and C#. Designed the procedural map generation algorithm and was responsible for game framework, player character, environment, and UI development.",
+        "content": [
+            "Led a team of 4; built with Unity and C#",
+            "Designed the procedural random map generation algorithm",
+            "Responsible for game framework, player character, environment, and UI development"
+        ],
+        "img": "StudyWar.png",
+        "tools": ["Unity", "VS Code"],
+        "languages": ["C#"],
+        "gallery": "StudyWar",
+        "imageCount": 9,
+        "date": "Jan 2023 -- May 2023"
+    },
+    {
+        "path": "/toohak-3D",
+        "title": "Toohak 3D",
+        "video": "https://youtu.be/6NQb9DSFOFw",
+        "description": "A group project of 4 providing a 3D environment for students to answer multiple choice questions in an interactive and engaging way. Built with Unity and C#.",
+        "content": [
+            "Group project of 4; built an interactive 3D multiple-choice quiz environment",
+            "Developed with Unity and C#"
+        ],
+        "img": "Toohak3D.png",
+        "tools": ["Unity", "VS Code"],
+        "languages": ["C#"],
+        "gallery": "Toohak3D",
+        "imageCount": 7,
+        "date": "Jan 2023 -- May 2023"
+    },
+    {
+        "path": "/online-lost-and-found-system",
+        "title": "Online Lost and Found System",
+        "video": "https://youtu.be/-CQODUmZ-Hs",
+        "description": "An individual full-stack web application with a login system allowing users to post lost or found items. Built using HTML, CSS, PHP, JavaScript, and MySQL.",
+        "content": [
+            "Individual full-stack web app with login, post management, and item search",
+            "Built with HTML, CSS, PHP, JavaScript, and MySQL"
+        ],
+        "img": "LostAndFound.png",
+        "tools": ["VS Code"],
+        "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
+        "gallery": "LostAndFound",
+        "imageCount": 0,
+        "date": "Oct 2022 -- Dec 2022"
+    },
+    {
+        "path": "/library-admin-system",
+        "title": "Library Management System",
+        "video": "https://youtu.be/8bH0QCbVa1Y",
+        "description": "A group project implementing a full CRUD library management system in Java. Supports adding, editing, and deleting book records, managing borrow/return/reserve status, title search, and sorting by ISBN or title.",
+        "content": [
+            "Group project; full CRUD book management with borrow, return, and reserve status",
+            "Implemented title search and sorting by ISBN or title",
+            "Developed with Object-Oriented Programming in Java"
+        ],
+        "img": "LibraryManagementSystem.png",
+        "tools": ["Eclipse"],
+        "languages": ["Java"],
+        "gallery": "LibraryManagementSystem",
+        "imageCount": 0,
+        "date": "Nov 2022 -- Dec 2022"
+    },
+    {
+        "path": "/assistive-device-development-for-SMA-children",
+        "title": "Assistive Device for SMA Children",
+        "video": "https://youtu.be/b9GsPJplkHM",
+        "description": "A group project of 4 designing a Switch Joy-Con adaptor for a child with Spinal Muscular Atrophy (SMA) to improve their gaming experience. Developed using Arduino and modelled with 3D Blender.",
+        "content": [
+            "Group project of 4; designed a Switch Joy-Con adaptor for a child with SMA",
+            "Developed with Arduino and modelled using 3D Blender"
+        ],
+        "img": "SMA.png",
+        "tools": ["3D Blender"],
+        "languages": [],
+        "gallery": "SMA",
+        "imageCount": 7,
+        "date": "Sep 2020 -- Nov 2020"
+    },
+    {
+        "path": "/ios-calculator",
+        "title": "IOS Calculator",
+        "video": "https://youtu.be/UclXB3TGCxk",
+        "description": "An individual iOS calculator app supporting binary, decimal, and hexadecimal calculation and random value generation. Built with Swift and Xcode.",
+        "content": [
+            "Individual project; supports binary, decimal, and hexadecimal calculation",
+            "Includes random value generation",
+            "Built with Swift using Xcode"
+        ],
+        "img": "IOSCalculator.png",
+        "tools": ["XCode"],
+        "languages": ["Swift"],
+        "gallery": "IOSCalculator",
+        "imageCount": 0,
+        "date": "Sep 2022 -- Oct 2022"
+    },
+    {
+        "path": "/android-app",
+        "title": "Sandbox Mini Game",
+        "video": "https://youtu.be/JPNvxK6WqMM",
+        "description": "An individual Android mini sandbox game allowing users to insert and delete icons that move around the screen and bounce back upon hitting the edge.",
+        "content": [
+            "Individual project; Android sandbox mini game built with Java",
+            "Icons move around the screen and bounce on edge collision"
+        ],
+        "img": "AndroidApp.png",
+        "tools": ["Android Studio"],
+        "languages": ["Java"],
+        "gallery": "AndroidApp",
+        "imageCount": 0,
+        "date": "Nov 2022 -- Dec 2022"
+    },
+    {
+        "path": "/infinity-glass",
+        "title": "Infinity-glass PV",
+        "video": "https://youtu.be/WjW6a7ZGf7A",
+        "description": "A group promotional video for a conceptual product, the Infinity Glass, produced using DaVinci Resolve.",
+        "content": [
+            "Group project; produced a promotional video for a conceptual product",
+            "Edited with DaVinci Resolve"
+        ],
+        "img": "InfinityGlasses.png",
+        "tools": ["Davinci Resolve"],
+        "languages": [],
+        "gallery": "InfinityGlasses",
+        "imageCount": 0,
+        "date": "Sep 2021 -- Dec 2021"
+    },
+    {
+        "path": "/welfare-system-of-europe",
+        "title": "Welfare System of Europe",
+        "video": "https://youtu.be/5QMFE3sMulw",
+        "description": "A group presentation video discussing the welfare system in Western Europe, produced with a team of 4 using DaVinci Resolve.",
+        "content": [
+            "Group project of 4; produced an academic presentation video",
+            "Discussed the welfare system in Western Europe",
+            "Edited with DaVinci Resolve"
+        ],
+        "img": "WelfareSystem.png",
+        "tools": ["Davinci Resolve"],
+        "languages": [],
+        "gallery": "WelfareSystem",
+        "imageCount": 0,
+        "date": "Apr 2023 -- May 2023"
+    },
+    {
+        "path": "/back-to-the-past",
+        "title": "Back To The Past PV",
+        "video": "https://youtu.be/lwVbI44llqI",
+        "description": "An individual promotional video for a conceptual 3D open-world exploration game featuring time travel mechanics. Modelled in Blender and edited with DaVinci Resolve.",
+        "content": [
+            "Individual project; promotional video for a conceptual 3D open-world game",
+            "Features time travel mechanics concept",
+            "3D modelling done in Blender; edited with DaVinci Resolve"
+        ],
+        "img": "BackToThePast.png",
+        "tools": ["3D Blender", "Davinci Resolve"],
+        "languages": [],
+        "gallery": "BackToThePast",
+        "imageCount": 6,
+        "date": "Jan 2022 -- May 2022"
+    },
+    {
+        "path": "/cobra-maneuver",
+        "title": "Cobra Maneuver",
+        "video": "https://youtu.be/mwkN7_QfB78",
+        "description": "An individual 3D animation of the Cobra maneuver, created with 3DS Max.",
+        "content": [
+            "Individual project; 3D animation created with 3DS Max"
+        ],
+        "img": "CobraManeuver.png",
+        "tools": ["3DS Max"],
+        "languages": [],
+        "gallery": "CobraManeuver",
+        "imageCount": 0,
+        "date": "Sep 2022 -- Dec 2022"
     }
 ]

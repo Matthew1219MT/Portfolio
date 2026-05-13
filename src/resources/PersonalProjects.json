@@ -3,26 +3,36 @@
         "path": "/portfolio",
         "title": "Personal Portfolio",
         "video": "",
-        "description": "Personal portfolio for displaying personal information, academic projects and personal projects",
-        "content": ["Written in React TypeScript", "Implemented HashRouter for sub-pages routing", "Utilized MaterialUI for React Components", "Applied flexible content updates with JSON storage", "Uses dynamic CSS to handle PC and phone access"],
+        "description": "A personal portfolio website built with React TypeScript and hosted on GitHub Pages to showcase academic and personal projects. Features HashRouter for sub-page routing, MaterialUI for React components, JSON-driven content management, and dynamic CSS for responsive PC and mobile layout.",
+        "content": [
+            "Built with React TypeScript; hosted on GitHub Pages",
+            "Implemented HashRouter for sub-page routing and MaterialUI for React components",
+            "Applied flexible content management via JSON storage",
+            "Dynamic CSS for responsive PC and mobile layout"
+        ],
         "img": "PersonalPortfolio.png",
         "tools": ["VSCode", "GitHub"],
         "languages": ["TypeScript"],
         "gallery": "PersonalPortfolio",
         "imageCount": 0,
-        "date": "Apr 2025 – Present"
+        "date": "Apr 2025 -- Present"
     },
     {
         "path": "/hkb-tracker",
         "title": "Hong Kong Bus Tracker",
         "video": "",
-        "description": "A web app for tracking estimated time of arrival of buses in Hong Kong",
-        "content": ["Written in React TypeScript and Next JS", "Implemented i18m for supporting 3 languages", "Utilized public API published by Data.gov.hk", "Used session storage to store user's configuration and preference"],
+        "description": "A web app for tracking estimated bus arrival times in Hong Kong, built with React TypeScript and Next.js. Integrates the public Data.gov.hk API for live ETA data, implements i18n supporting 3 languages, and uses session storage to persist user configuration and preferences.",
+        "content": [
+            "Built with React TypeScript and Next.js",
+            "Integrated public Data.gov.hk API for live bus ETA data",
+            "Implemented i18n supporting 3 languages (English, Traditional Chinese, Simplified Chinese)",
+            "Used session storage to persist user configuration and preferences across sessions"
+        ],
         "img": "HKBusTracker.png",
         "tools": ["VSCode", "GitHub"],
         "languages": ["TypeScript"],
         "gallery": "HKBusTracker",
         "imageCount": 4,
-        "date": "Jul 2025 – Jan 2026"
+        "date": "Jul 2025 -- Jan 2026"
     }
 ]
