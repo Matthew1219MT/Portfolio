@@ -81,7 +81,7 @@
         },
         {
             "name": "Development Tools",
-            "list": ["Visual Studio Code", "IntelliJ IDEA", "Eclipse", "MySQL Workbench", "Postman"]
+            "list": ["Visual Studio Code", "IntelliJ IDEA", "Eclipse", "MySQL Workbench", "Postman", "Docker"]
         },
         {
             "name": "Version Control",
