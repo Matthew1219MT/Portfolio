@@ -1,5 +1,23 @@
 [
     {
+        "path": "/shared-whiteboard",
+        "title": "Shared Whiteboard",
+        "video": "",
+        "description": "Shared whiteboards allow multiple users to draw simultaneously on a cavas.",
+        "content": [
+            "Designed a concurrent client-server architecture using Java RMI",
+            "Applied Java RMI for networked communication",
+            "Developed GUI with Swing library for user interaction and implementation of canvas feature",
+            "Implemented JSON for persistent storage"
+        ],
+        "img": "SWB.png",
+        "tools": ["IntelliJ IDEA"],
+        "languages": ["Java"],
+        "gallery": "SWB",
+        "imageCount": 3,
+        "date": "Apr 2026 -- May 2026"
+    },
+    {
         "path": "/multi-threaded-dictionary-server",
         "title": "Multi-threaded Dictionary Server",
         "video": "https://youtu.be/jHEP-eSufVw",
@@ -15,7 +33,7 @@
         "languages": ["Java"],
         "gallery": "MTDS",
         "imageCount": 5,
-        "date": "Mar 2025 -- Apr 2025"
+        "date": "Mar 2026 -- Apr 2026"
     },
     {
         "path": "/eldercare",
