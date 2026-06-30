@@ -23,10 +23,11 @@
             "start": "Jul 2025",
             "end": "Oct 2025",
             "description": [
-                "Authored a 68-page technical knowledge-transfer document covering a Laravel full-stack project end-to-end (front-end, back-end, database schema, and third-party integrations such as custom-domain registration and SMTP); actively referenced by onboarded interns post-handover.",
-                "Designed and implemented a proof-of-concept Multi-Armed Bandit model in Python to predict donation trends from user demographics and time, deployed on AWS EC2; sole contributor from architecture to implementation.",
-                "Engineered an IP-based geolocation feature with PHP and Laravel to collect demographic context for the AI model.",
-                "Audited website accessibility using WCAG testing tools, identifying 5–10 issues per site and reporting findings to senior developers."
+                "Authored a 68-page end-to-end technical handover document for a Laravel full-stack project, actively referenced by onboarded interns post-handover.",
+                "Led R&D into AI-driven donation prediction for a Laravel project, prototyping the model in PHP and deploying a proof-of-concept to AWS EC2; sole contributor from concept to implementation.",
+                "Engineered an IP-based geolocation feature with PHP and Laravel.",
+                "Audited website accessibility against WCAG standards using testing tools, reporting findings to senior developers."
+
             ]
         },
         {
