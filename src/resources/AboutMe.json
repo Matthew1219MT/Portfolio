@@ -34,7 +34,7 @@
             "title": "Programmer",
             "company": "LinkPower Technology Limited",
             "start": "Jul 2024",
-            "end": "Jan 2025",
+            "end": "June 2025",
             "description": [
                 "Rebuilt a legacy Vue-based internal search engine from scratch using <b>React TypeScript</b> and <b>Ant Design</b>, adding Redux state management, i18n, responsive layout, and an AI response section; tested with <b>Jest</b> and deployed to production.",
                 "Developed a service-monitoring admin dashboard with <b>React TypeScript</b> and <b>React Router</b> to track internal service availability across the company; deployed to production.",
