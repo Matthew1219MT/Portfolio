@@ -123,10 +123,16 @@
             "link": "https://cp.certmetrics.com/amazon/en/public/verify/credential/1218a1cd651b46b58908ca738a9d0c87"
         },
         {
-            "name": "INTRODUCTION BADGE CERTIFICATE OF COMPLETION",
+            "name": "Introduction Badge Certificate Of Completion",
             "organization": "PentesterLab",
             "date": "July 2026",
             "link": "https://pentesterlab.com/certs/b987c5765ac17d486ac34bc67dd52f"
+        },
+        {
+            "name": "UNIX Badge Certificate Of Completion",
+            "organization": "PentesterLab",
+            "date": "July 2026",
+            "link": "https://pentesterlab.com/certs/d2189eeafbaa8003a1ce934d7c8e2e"
         },
         {
             "name": "Certificate in Digital Video Production",
