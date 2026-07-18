@@ -1,5 +1,23 @@
 [
     {
+        "path": "/covid19-outcome-prediction",
+        "title": "COVID-19 Outcome Prediction",
+        "video": "",
+        "description": "A group project of 4 comparing machine learning models, including a neural network, to predict COVID-19 hospitalisation and mortality from pre-existing conditions using a large Mexican government dataset.",
+        "content": [
+            "Group project of 4; compared KNN, Decision Tree, Random Forest, Logistic Regression, Naive Bayes, and Neural Network on 600k+ patient records",
+            "Performed data cleaning, feature engineering, and class imbalance handling with SMOTE and class weighting",
+            "Tuned hyperparameters via grid search and nested cross-validation, evaluating with precision, recall, and F1-score",
+            "Authored ACL-formatted research report analysing feature importance and model performance for clinical triage"
+        ],
+        "img": "Covid19.png",
+        "tools": ["VS Code", "GitHub"],
+        "languages": ["Python"],
+        "gallery": "Covid19",
+        "imageCount": 2,
+        "date": "Apr 2026 -- May 2026"
+    },
+    {
         "path": "/shared-whiteboard",
         "title": "Shared Whiteboard",
         "video": "",
