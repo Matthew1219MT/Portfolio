@@ -59,7 +59,8 @@
             "description": [
                 "Developed a desktop application using <b>Python</b>, <b>OpenCV</b>, and <b>Tkinter</b> to detect and visualise colour changes in Covid specimen samples, supporting lab validation workflows.",
                 "Built a <b>Python</b> and <b>MQTT</b> back-end system to automatically broadcast real-time availability and location status for approximately 50 staff, eliminating the need to manually consult class schedules.",
-                "Prototyped an automated vision-screening tool using <b>Python</b> and <b>OpenCV</b> to detect short-sightedness and long-sightedness."
+                "Prototyped an automated vision-screening tool using <b>Python</b> and <b>OpenCV</b> to detect short-sightedness and long-sightedness.",
+                "Provided technical support for updating and verifying over 100 computers in Industrial Center"
             ]
         }
     ],
