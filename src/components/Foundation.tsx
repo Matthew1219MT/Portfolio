@@ -25,7 +25,6 @@ const Foundation: React.FC = () => {
                         <Route path="/about-me" element={<AboutMe/>}/>
                         <Route path="/academic-projects" element={<ProjectsList config={AcademicProjects} title="Academic Projects" path="/academic-projects"/>}/>
                         <Route path="/personal-projects" element={<ProjectsList config={PersonalProjects} title="Personal Projects" path="/personal-projects"/>}/>
-                        <Route path="/project-info" element={<ProjectInfo/>}/>
                         {AcademicProjects.map((project, index) => {
                             return <Route key={index} path={`/academic-projects${project.path}`} element={<ProjectShowcase project={project} projects={AcademicProjects} title="Academic Projects" path="/academic-projects"/>}></Route>
                         })}
