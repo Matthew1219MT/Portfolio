@@ -25,7 +25,6 @@ const Homepage: React.FC<Props> = ({academicProjects, personalProjects}) => {
             <button className="home-page-button" onClick={()=>{navigate('/academic-projects')}}>Academic Projects</button>
             <button className="home-page-button" onClick={()=>{navigate('/personal-projects')}}>Personal Projects</button>
             <button className="home-page-button-special" onClick={()=>{navigate('game/StudyWar')}}>StudyWar (Try Me!)</button>
-            <button className="home-page-button" onClick={()=>{navigate('/project-info')}}>Project Info</button>
             <button className="home-page-button" onClick={()=>{navigate('/share')}}>Share</button>
             {isMobile && <CustumCarousel className="home-page-custom-carousel-mobile"/>}
         </div>;
