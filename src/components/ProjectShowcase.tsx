@@ -79,7 +79,7 @@ const ProjectShowcase:React.FC<Props> = ({project, projects, title, path}) => {
         {!isMobile && <div className='project-showcase-project-list'>
             {other_projects.map((project, index) => {
                 return <Card className='project-showcase-project-card' key={index}>
-                <CardActionArea onClick={()=>{navigate(`/${path}${project.path}`)}}>
+                <CardActionArea onClick={()=>{navigate(`${path}${project.path}`)}}>
                   <SmartCardMedia img={project.img}/>
                   <CardContent style={{backgroundColor: '#363636', color:'white'}}>
                     <Typography gutterBottom variant="h6" component="div">

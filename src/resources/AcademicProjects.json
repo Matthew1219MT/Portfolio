@@ -1,5 +1,60 @@
 [
     {
+        "path": "/Connie",
+        "title": "Connie - AI-mentor",
+        "video": "",
+        "description": "An group project for developing Connie, an AI-mentor to increase youth access to community arts activities. Working and collaborating with the client throughout the development.",
+        "content": [
+            "Applied Agile development cycle for the development",
+            "Utilized GitHub project for task management",
+            "Documented development progress with Github Wiki",
+            "Submitted and reviewed pull request for systematic collaboration",
+            "Engineered system prompt for additional features in reply",
+            "Modified backend logic for facilitating new features"
+        ],
+        "img": "Connie.png",
+        "tools": ["VS Code", "GitHub", "Django"],
+        "languages": ["Python", "JavaScript"],
+        "gallery": "Connie",
+        "imageCount": 0,
+        "date": "Aug 2026 -- Oct 2026"
+    },
+    {
+        "path": "/password-manager",
+        "title": "Password Manager",
+        "video": "",
+        "description": "An individual project for implementing Cryptography knowledge for CLI-based password manager",
+        "content": [
+            "Developed and tested with Claude AI",
+            "Implemented slow hashing for password encryption",
+            "Tested wtih Boundary Value Analysis and Attack Tree Analysis"
+        ],
+        "img": "PasswordManager.png",
+        "tools": ["VS Code", "GitHub"],
+        "languages": ["Python"],
+        "gallery": "PasswordManager",
+        "imageCount": 0,
+        "date": "Sep 2026 -- Oct 2026"
+    },
+    {
+        "path": "/ad-and-ood",
+        "title": "Anomaly Detection and Out-Of-Distribution Detection with Machine Learning",
+        "video": "",
+        "description": "An individual project for implementing Machine Learning methods for anomaly detection and OOD detection",
+        "content": [
+            "Atuhored non-technical friendly report",
+            "Implemented machine leraning pipeline with Python and Juypter notebook",
+            "Evaluated model performance with various metrics",
+            "Visualized data as graphs for intuitive presentation"
+        ],
+        "img": "ADOOD.png",
+        "tools": ["VS Code", "GitHub"],
+        "languages": ["Python"],
+        "gallery": "ADOOD",
+        "imageCount": 5,
+        "date": "Sep 2026 -- Oct 2026"
+    },
+    {
         "path": "/covid19-outcome-prediction",
         "title": "COVID-19 Outcome Prediction",
         "video": "",
