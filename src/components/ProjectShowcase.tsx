@@ -1,4 +1,4 @@
-import ReactPlayer from 'react-player/youtube';
+import ReactPlayer from 'react-player';
 import './ProjectShowcase.css';
 import { useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
@@ -45,7 +45,7 @@ const ProjectShowcase:React.FC<Props> = ({project, projects, title, path}) => {
 
     return <div className='project-showcase-container'>
         <div className='project-showcase-content'>
-            {project.video && <div style={{borderRadius: 10, overflow: 'hidden'}}><ReactPlayer url={project.video} controls={true} width="100%"/></div>}
+            {project.video && <div style={{borderRadius: 10, overflow: 'hidden'}}><ReactPlayer src={project.video} controls={true} width="100%" height="auto" style={{aspectRatio: '16 / 9'}}/></div>}
             <Divider className="project-showcase-divider"/>
             <div className='project-showcase-title'>{project.title}</div>
             <Divider className="project-showcase-divider"/>
