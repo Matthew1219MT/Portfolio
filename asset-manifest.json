@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.96a13e3a.css",
-    "main.js": "/Portfolio/static/js/main.1032c9e7.js",
+    "main.js": "/Portfolio/static/js/main.d3861515.js",
     "reactPlayerHls.js": "/Portfolio/static/js/reactPlayerHls.d4e2e2e7.chunk.js",
     "reactPlayerDash.js": "/Portfolio/static/js/reactPlayerDash.d73cad1e.chunk.js",
     "reactPlayerMux.js": "/Portfolio/static/js/reactPlayerMux.df0acee9.chunk.js",
@@ -18,7 +18,7 @@
     "static/js/788.f880a78a.chunk.js": "/Portfolio/static/js/788.f880a78a.chunk.js",
     "index.html": "/Portfolio/index.html",
     "main.96a13e3a.css.map": "/Portfolio/static/css/main.96a13e3a.css.map",
-    "main.1032c9e7.js.map": "/Portfolio/static/js/main.1032c9e7.js.map",
+    "main.d3861515.js.map": "/Portfolio/static/js/main.d3861515.js.map",
     "reactPlayerHls.d4e2e2e7.chunk.js.map": "/Portfolio/static/js/reactPlayerHls.d4e2e2e7.chunk.js.map",
     "reactPlayerDash.d73cad1e.chunk.js.map": "/Portfolio/static/js/reactPlayerDash.d73cad1e.chunk.js.map",
     "reactPlayerMux.df0acee9.chunk.js.map": "/Portfolio/static/js/reactPlayerMux.df0acee9.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.96a13e3a.css",
-    "static/js/main.1032c9e7.js"
+    "static/js/main.d3861515.js"
   ]
 }
