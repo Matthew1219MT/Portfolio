@@ -3,18 +3,26 @@
         "path": "/Connie",
         "title": "Connie - AI-mentor",
         "video": "",
-        "description": "An group project for developing Connie, an AI-mentor to increase youth access to community arts activities. Working and collaborating with the client throughout the development.",
+        "description": "A capstone group project of 6 building Connie, an AI mentor that helps young people discover and access community arts and music activities. The team worked closely with the client and reported to 2 of Connie's developers across 2 Agile sprints.",
         "content": [
-            "Applied Agile development cycle for the development",
-            "Utilized GitHub project for task management",
-            "Documented development progress with Github Wiki",
-            "Submitted and reviewed pull request for systematic collaboration",
-            "Engineered system prompt for additional features in reply",
-            "Modified backend logic for facilitating new features"
+            "Followed an Agile development cycle across 2 sprints",
+            "Collaborated with and reported to 2 developers from the Connie team",
+            "Managed tasks with GitHub Projects",
+            "Documented progress in the GitHub Wiki",
+            "Created 3 pull requests that were merged, and reviewed and approved 2 from teammates",
+            "Engineered the system prompt to return formatted event suggestions",
+            "Extended the backend so event suggestions support route planning, calendar export, bookmarking, and nearby eateries"
         ],
         "img": "Connie.png",
-        "tools": ["VS Code", "GitHub", "Django"],
-        "languages": ["Python", "JavaScript"],
+        "tools": [
+            "VS Code",
+            "GitHub",
+            "Django"
+        ],
+        "languages": [
+            "Python",
+            "JavaScript"
+        ],
         "gallery": "Connie",
         "imageCount": 3,
         "date": "Aug 2026 -- Oct 2026"
@@ -23,15 +31,24 @@
         "path": "/password-manager",
         "title": "Password Manager",
         "video": "",
-        "description": "An individual project for implementing Cryptography knowledge for CLI-based password manager",
+        "description": "An individual project applying cryptography concepts to build a command line password manager. Users manage passwords in a vault and can export it as an encrypted file protected by a master password. Developed and tested with the help of Claude AI.",
         "content": [
-            "Developed and tested with Claude AI",
-            "Implemented slow hashing for password encryption",
-            "Tested wtih Boundary Value Analysis and Attack Tree Analysis"
+            "Built a command line password manager",
+            "Add and remove passwords in the password vault",
+            "Create, export, and re-import vaults with a master password",
+            "Encrypted the whole vault on export",
+            "Applied Argon2 slow hashing to defend against brute-force attacks",
+            "Tested with Boundary Value Analysis and Attack Tree Analysis",
+            "Developed and tested with Claude AI as a coding partner"
         ],
         "img": "PasswordManager.png",
-        "tools": ["VS Code", "GitHub"],
-        "languages": ["Python"],
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "Python"
+        ],
         "gallery": "PasswordManager",
         "imageCount": 0,
         "date": "Sep 2026 -- Oct 2026"
@@ -40,16 +57,23 @@
         "path": "/ad-and-ood",
         "title": "Anomaly Detection and Out-Of-Distribution Detection with Machine Learning",
         "video": "",
-        "description": "An individual project for implementing Machine Learning methods for anomaly detection and OOD detection",
+        "description": "An individual machine learning project detecting anomalies and out-of-distribution (OOD) images in the CIFAR-10 dataset. Models were evaluated with a range of metrics, and the findings were presented in a report written for non-technical readers.",
         "content": [
-            "Atuhored non-technical friendly report",
-            "Implemented machine leraning pipeline with Python and Juypter notebook",
-            "Evaluated model performance with various metrics",
-            "Visualized data as graphs for intuitive presentation"
+            "Built a machine learning pipeline with Jupyter Notebook",
+            "Applied anomaly detection and OOD detection methods on CIFAR-10",
+            "Evaluated models with AUROC, AUPRC, precision, recall, and F1-score",
+            "Applied contrast data mining to analyse the results",
+            "Visualised results as graphs for intuitive presentation",
+            "Authored a report friendly to non-technical readers"
         ],
         "img": "ADOOD.png",
-        "tools": ["VS Code", "GitHub"],
-        "languages": ["Python"],
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "Python"
+        ],
         "gallery": "ADOOD",
         "imageCount": 5,
         "date": "Sep 2026 -- Oct 2026"
@@ -58,16 +82,24 @@
         "path": "/covid19-outcome-prediction",
         "title": "COVID-19 Outcome Prediction",
         "video": "",
-        "description": "A group project of 4 comparing machine learning models, including a neural network, to predict COVID-19 hospitalisation and mortality from pre-existing conditions using a large Mexican government dataset.",
+        "description": "A group project of 4 predicting COVID-19 hospitalisation and mortality from pre-existing conditions. The team compared several machine learning models, including a neural network, on a large Mexican government dataset of over 600k patient records.",
         "content": [
-            "Group project of 4; compared KNN, Decision Tree, Random Forest, Logistic Regression, Naive Bayes, and Neural Network on 600k+ patient records",
-            "Performed data cleaning, feature engineering, and class imbalance handling with SMOTE and class weighting",
-            "Tuned hyperparameters via grid search and nested cross-validation, evaluating with precision, recall, and F1-score",
-            "Authored ACL-formatted research report analysing feature importance and model performance for clinical triage"
+            "Group project of 4 using 600k+ patient records",
+            "Compared KNN, Decision Tree, Random Forest, Logistic Regression, Naive Bayes, and a Neural Network",
+            "Cleaned the data and engineered features",
+            "Handled class imbalance with SMOTE and class weighting",
+            "Tuned hyperparameters with grid search and nested cross-validation",
+            "Evaluated models with precision, recall, and F1-score",
+            "Authored an ACL-formatted report on feature importance and model performance for clinical triage"
         ],
         "img": "Covid19.png",
-        "tools": ["VS Code", "GitHub"],
-        "languages": ["Python"],
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "Python"
+        ],
         "gallery": "Covid19",
         "imageCount": 2,
         "date": "Apr 2026 -- May 2026"
@@ -76,16 +108,22 @@
         "path": "/shared-whiteboard",
         "title": "Shared Whiteboard",
         "video": "",
-        "description": "Shared whiteboards allow multiple users to draw simultaneously on a cavas.",
+        "description": "An individual project building a shared whiteboard where multiple users draw on the same canvas at the same time. Collaborators can chat in a built-in chatroom, while the host approves new users and can remove them.",
         "content": [
-            "Designed a concurrent client-server architecture using Java RMI",
-            "Applied Java RMI for networked communication",
-            "Developed GUI with Swing library for user interaction and implementation of canvas feature",
-            "Implemented JSON for persistent storage"
+            "Designed a concurrent client-server architecture with Java RMI",
+            "Supported free drawing, shapes, and text on a shared canvas",
+            "Added a chatroom for collaborators",
+            "Gave the host rights to approve new users and kick them",
+            "Built the GUI with the Swing library",
+            "Saved whiteboards with JSON for persistent storage"
         ],
         "img": "SWB.png",
-        "tools": ["IntelliJ IDEA"],
-        "languages": ["Java"],
+        "tools": [
+            "IntelliJ IDEA"
+        ],
+        "languages": [
+            "Java"
+        ],
         "gallery": "SWB",
         "imageCount": 3,
         "date": "Apr 2026 -- May 2026"
@@ -94,16 +132,22 @@
         "path": "/multi-threaded-dictionary-server",
         "title": "Multi-threaded Dictionary Server",
         "video": "https://youtu.be/jHEP-eSufVw",
-        "description": "Designed and implemented a concurrent client-server dictionary application in Java. Clients connect via TCP and can search, add, or remove words concurrently; read/write locks ensure thread safety. Features a Swing GUI and uses JSON for both data transmission and persistent storage.",
+        "description": "An individual project building a concurrent client-server dictionary. Clients connect over TCP to search, add, or remove words at the same time, with read/write locks keeping the data thread safe. Includes a Swing GUI and uses JSON for both data transmission and storage.",
         "content": [
-            "Designed a concurrent client-server architecture using TCP connection and Java",
-            "Applied read/write locks to ensure thread-safe concurrent access",
-            "Developed GUI with Swing library for client-side interaction",
-            "Implemented JSON for data transmission and persistent storage"
+            "Designed a concurrent client-server architecture over TCP",
+            "Ensured thread safety with ReentrantReadWriteLock",
+            "Persisted changes with background flush threads",
+            "Used Gson for JSON data transmission and storage",
+            "Built the client GUI with the Swing library",
+            "Unit tested with JUnit 5"
         ],
         "img": "MTDS.png",
-        "tools": ["IntelliJ IDEA"],
-        "languages": ["Java"],
+        "tools": [
+            "IntelliJ IDEA"
+        ],
+        "languages": [
+            "Java"
+        ],
         "gallery": "MTDS",
         "imageCount": 5,
         "date": "Mar 2026 -- Apr 2026"
@@ -112,15 +156,20 @@
         "path": "/eldercare",
         "title": "ElderCare",
         "video": "https://youtu.be/cnPtKdZTn8k",
-        "description": "A group project of 6 to develop an Android mobile application to assist eldercare. Built with Android Studio and Java, with version control managed through GitHub.",
+        "description": "A group project of 6 building an Android mobile application to support eldercare. Led the team and developed the backend for an AI doctor feature powered by the ChatGPT API.",
         "content": [
-            "Group project of 6; developed an Android eldercare mobile application",
-            "Built with Android Studio and Java",
-            "Carried out version control with GitHub"
+            "Led a team of 6 and coordinated teamwork",
+            "Built the backend for the AI doctor response feature",
+            "Connected the ChatGPT API to the app's backend",
+            "Managed version control with GitHub"
         ],
         "img": "ElderCare.png",
-        "tools": ["Android Studio"],
-        "languages": ["Java"],
+        "tools": [
+            "Android Studio"
+        ],
+        "languages": [
+            "Java"
+        ],
         "gallery": "ElderCare",
         "imageCount": 9,
         "date": "Jul 2025 -- Oct 2025"
@@ -129,14 +178,17 @@
         "path": "/urban-tree-explorer",
         "title": "Urban Tree Explorer",
         "video": "https://youtu.be/lIl9eFFzvNU",
-        "description": "A group project of 5 practising the SCRUM software development lifecycle. Delivered across 3 two-week sprints including sprint planning, retrospectives, and reviews. Built with WordPress with detailed documentation produced throughout.",
+        "description": "A group project of 5 practising the SCRUM software development lifecycle. The team delivered across 3 two-week sprints with sprint planning, reviews, and retrospectives, producing detailed documentation throughout.",
         "content": [
-            "Group project of 5; developed with SCRUM SDLC across 3 sprints",
-            "Conducted sprint planning, retrospectives, and reviews each sprint",
-            "Built with WordPress with detailed documentation throughout the lifecycle"
+            "Group project of 5 following the SCRUM lifecycle",
+            "Delivered across 3 two-week sprints",
+            "Held sprint planning, reviews, and retrospectives every sprint",
+            "Produced detailed documentation throughout the lifecycle"
         ],
         "img": "UrbanTreeExplorer.png",
-        "tools": ["WordPress"],
+        "tools": [
+            "WordPress"
+        ],
         "languages": [],
         "gallery": "UrbanTreeExplorer",
         "imageCount": 4,
@@ -146,15 +198,23 @@
         "path": "/web-RTC",
         "title": "Online Broadcast System",
         "video": "",
-        "description": "A group project implementing a live video monitoring system using WebRTC. Users can broadcast video footage to others via a standard web browser. Features include a viewer counter, video recording, motion detection, and face tracking.",
+        "description": "A 2-person project building a live video monitoring system with WebRTC. Users broadcast video to viewers through a standard web browser. As the main contributor, built the UI layouts and the frontend broadcast logic.",
         "content": [
-            "Built a live video monitoring system using WebRTC API",
-            "Implemented viewer counter, video recording, motion detection, and face tracking",
-            "Group project developed with JavaScript and HTML"
+            "Main contributor in a team of 2",
+            "Built the UI layouts and frontend broadcast logic",
+            "Streamed live video in the browser with the WebRTC API",
+            "Added a viewer counter and video recording",
+            "Implemented motion detection and face tracking"
         ],
         "img": "WebRTC.png",
-        "tools": ["VS Code", "GitHub"],
-        "languages": ["JavaScript", "HTML"],
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "JavaScript",
+            "HTML"
+        ],
         "gallery": "WebRTC",
         "imageCount": 4,
         "date": "Oct 2023 -- Dec 2023"
@@ -163,15 +223,21 @@
         "path": "/drive-master",
         "title": "Master Drive - 3D Multiplayer Driving Simulator",
         "video": "https://youtu.be/9y5wvXi1GQc",
-        "description": "Final year group project; a 3D online multiplayer driving simulator aimed at improving traffic safety awareness. Led a team of 3 using Godot and GDScript. Constructed the major framework with an MVVM structure and was responsible for game logic, player character, UI, and HUD development.",
+        "description": "A final year group project building a 3D online multiplayer driving simulator that raises traffic safety awareness, supporting 4 players online. Led a team of 3 and built the core framework with an MVVM structure.",
         "content": [
-            "Led a team of 3 as final year group project",
-            "Constructed major game framework using MVVM architecture with Godot and GDScript",
-            "Responsible for game logic, player character, UI, and HUD development"
+            "Led a team of 3 as the final year project",
+            "Supported 4 players online",
+            "Built the core game framework with MVVM architecture",
+            "Handled game logic, player character, UI, and HUD"
         ],
         "img": "DriveMaster.png",
-        "tools": ["Godot", "GitHub"],
-        "languages": ["GDScript"],
+        "tools": [
+            "Godot",
+            "GitHub"
+        ],
+        "languages": [
+            "GDScript"
+        ],
         "gallery": "DriveMaster",
         "imageCount": 9,
         "date": "Aug 2023 -- May 2024"
@@ -180,15 +246,20 @@
         "path": "/study-war",
         "title": "Study War - 2D Roguelike Game",
         "video": "https://youtu.be/atSQNczFSOY",
-        "description": "Led a team of 4 to build a 2D roguelike game with Unity and C#. Designed the procedural map generation algorithm and was responsible for game framework, player character, environment, and UI development.",
+        "description": "A 2D roguelike game built by a team of 4. Led the team, designed the procedural map generation algorithm, and built the game framework, player character, environment, and UI.",
         "content": [
-            "Led a team of 4; built with Unity and C#",
-            "Designed the procedural random map generation algorithm",
-            "Responsible for game framework, player character, environment, and UI development"
+            "Led a team of 4",
+            "Designed a procedural random map generation algorithm",
+            "Built the game framework, player character, environment, and UI"
         ],
         "img": "StudyWar.png",
-        "tools": ["Unity", "VS Code"],
-        "languages": ["C#"],
+        "tools": [
+            "Unity",
+            "VS Code"
+        ],
+        "languages": [
+            "C#"
+        ],
         "gallery": "StudyWar",
         "imageCount": 9,
         "date": "Jan 2023 -- May 2023"
@@ -197,14 +268,20 @@
         "path": "/toohak-3D",
         "title": "Toohak 3D",
         "video": "https://youtu.be/6NQb9DSFOFw",
-        "description": "A group project of 4 providing a 3D environment for students to answer multiple choice questions in an interactive and engaging way. Built with Unity and C#.",
+        "description": "A group project of 4 providing a 3D environment where students answer multiple choice questions in an interactive and engaging way. Responsible for the system design and the game scenery design.",
         "content": [
-            "Group project of 4; built an interactive 3D multiple-choice quiz environment",
-            "Developed with Unity and C#"
+            "Group project of 4 building an interactive 3D quiz",
+            "Responsible for the system design",
+            "Designed the game scenery"
         ],
         "img": "Toohak3D.png",
-        "tools": ["Unity", "VS Code"],
-        "languages": ["C#"],
+        "tools": [
+            "Unity",
+            "VS Code"
+        ],
+        "languages": [
+            "C#"
+        ],
         "gallery": "Toohak3D",
         "imageCount": 7,
         "date": "Jan 2023 -- May 2023"
@@ -213,14 +290,22 @@
         "path": "/online-lost-and-found-system",
         "title": "Online Lost and Found System",
         "video": "https://youtu.be/-CQODUmZ-Hs",
-        "description": "An individual full-stack web application with a login system allowing users to post lost or found items. Built using HTML, CSS, PHP, JavaScript, and MySQL.",
+        "description": "An individual full-stack web application where users log in to post and search for lost or found items.",
         "content": [
-            "Individual full-stack web app with login, post management, and item search",
-            "Built with HTML, CSS, PHP, JavaScript, and MySQL"
+            "Individual full-stack web app",
+            "Supports login, post management, and item search"
         ],
         "img": "LostAndFound.png",
-        "tools": ["VS Code"],
-        "languages": ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
+        "tools": [
+            "VS Code"
+        ],
+        "languages": [
+            "HTML",
+            "CSS",
+            "PHP",
+            "MySQL",
+            "JavaScript"
+        ],
         "gallery": "LostAndFound",
         "imageCount": 0,
         "date": "Oct 2022 -- Dec 2022"
@@ -229,15 +314,20 @@
         "path": "/library-admin-system",
         "title": "Library Management System",
         "video": "https://youtu.be/8bH0QCbVa1Y",
-        "description": "A group project implementing a full CRUD library management system in Java. Supports adding, editing, and deleting book records, managing borrow/return/reserve status, title search, and sorting by ISBN or title.",
+        "description": "A group project building a full CRUD library management system. Users can add, edit, and delete book records, manage borrow, return, and reserve status, search by title, and sort by ISBN or title.",
         "content": [
-            "Group project; full CRUD book management with borrow, return, and reserve status",
-            "Implemented title search and sorting by ISBN or title",
-            "Developed with Object-Oriented Programming in Java"
+            "Group project using object-oriented programming",
+            "Full CRUD for book records",
+            "Tracks borrow, return, and reserve status",
+            "Search by title and sort by ISBN or title"
         ],
         "img": "LibraryManagementSystem.png",
-        "tools": ["Eclipse"],
-        "languages": ["Java"],
+        "tools": [
+            "Eclipse"
+        ],
+        "languages": [
+            "Java"
+        ],
         "gallery": "LibraryManagementSystem",
         "imageCount": 0,
         "date": "Nov 2022 -- Dec 2022"
@@ -246,13 +336,17 @@
         "path": "/assistive-device-development-for-SMA-children",
         "title": "Assistive Device for SMA Children",
         "video": "https://youtu.be/b9GsPJplkHM",
-        "description": "A group project of 4 designing a Switch Joy-Con adaptor for a child with Spinal Muscular Atrophy (SMA) to improve their gaming experience. Developed using Arduino and modelled with 3D Blender.",
+        "description": "A group project of 4 designing a Switch Joy-Con adaptor for a child with Spinal Muscular Atrophy (SMA) to improve their gaming experience. Developed with Arduino and modelled in 3D.",
         "content": [
-            "Group project of 4; designed a Switch Joy-Con adaptor for a child with SMA",
-            "Developed with Arduino and modelled using 3D Blender"
+            "Group project of 4",
+            "Designed a Switch Joy-Con adaptor for a child with SMA",
+            "Developed with Arduino",
+            "Modelled the adaptor in 3D"
         ],
         "img": "SMA.png",
-        "tools": ["3D Blender"],
+        "tools": [
+            "3D Blender"
+        ],
         "languages": [],
         "gallery": "SMA",
         "imageCount": 7,
@@ -262,15 +356,19 @@
         "path": "/ios-calculator",
         "title": "IOS Calculator",
         "video": "https://youtu.be/UclXB3TGCxk",
-        "description": "An individual iOS calculator app supporting binary, decimal, and hexadecimal calculation and random value generation. Built with Swift and Xcode.",
+        "description": "An individual iOS calculator app that supports binary, decimal, and hexadecimal calculation, plus random value generation.",
         "content": [
-            "Individual project; supports binary, decimal, and hexadecimal calculation",
-            "Includes random value generation",
-            "Built with Swift using Xcode"
+            "Individual iOS project",
+            "Calculates in binary, decimal, and hexadecimal",
+            "Generates random values"
         ],
         "img": "IOSCalculator.png",
-        "tools": ["XCode"],
-        "languages": ["Swift"],
+        "tools": [
+            "XCode"
+        ],
+        "languages": [
+            "Swift"
+        ],
         "gallery": "IOSCalculator",
         "imageCount": 0,
         "date": "Sep 2022 -- Oct 2022"
@@ -279,14 +377,19 @@
         "path": "/android-app",
         "title": "Sandbox Mini Game",
         "video": "https://youtu.be/JPNvxK6WqMM",
-        "description": "An individual Android mini sandbox game allowing users to insert and delete icons that move around the screen and bounce back upon hitting the edge.",
+        "description": "An individual Android sandbox mini game where users insert and delete icons that move around the screen and bounce off the edges.",
         "content": [
-            "Individual project; Android sandbox mini game built with Java",
-            "Icons move around the screen and bounce on edge collision"
+            "Individual Android game",
+            "Insert and delete icons on screen",
+            "Icons move around and bounce off the screen edges"
         ],
         "img": "AndroidApp.png",
-        "tools": ["Android Studio"],
-        "languages": ["Java"],
+        "tools": [
+            "Android Studio"
+        ],
+        "languages": [
+            "Java"
+        ],
         "gallery": "AndroidApp",
         "imageCount": 0,
         "date": "Nov 2022 -- Dec 2022"
@@ -295,13 +398,14 @@
         "path": "/infinity-glass",
         "title": "Infinity-glass PV",
         "video": "https://youtu.be/WjW6a7ZGf7A",
-        "description": "A group promotional video for a conceptual product, the Infinity Glass, produced using DaVinci Resolve.",
+        "description": "A group promotional video for the Infinity Glass, a conceptual product.",
         "content": [
-            "Group project; produced a promotional video for a conceptual product",
-            "Edited with DaVinci Resolve"
+            "Group project producing a promotional video for a conceptual product"
         ],
         "img": "InfinityGlasses.png",
-        "tools": ["Davinci Resolve"],
+        "tools": [
+            "Davinci Resolve"
+        ],
         "languages": [],
         "gallery": "InfinityGlasses",
         "imageCount": 0,
@@ -311,14 +415,15 @@
         "path": "/welfare-system-of-europe",
         "title": "Welfare System of Europe",
         "video": "https://youtu.be/5QMFE3sMulw",
-        "description": "A group presentation video discussing the welfare system in Western Europe, produced with a team of 4 using DaVinci Resolve.",
+        "description": "A group presentation video by a team of 4 discussing the welfare system in Western Europe.",
         "content": [
-            "Group project of 4; produced an academic presentation video",
-            "Discussed the welfare system in Western Europe",
-            "Edited with DaVinci Resolve"
+            "Group project of 4 producing an academic presentation video",
+            "Discussed the welfare system in Western Europe"
         ],
         "img": "WelfareSystem.png",
-        "tools": ["Davinci Resolve"],
+        "tools": [
+            "Davinci Resolve"
+        ],
         "languages": [],
         "gallery": "WelfareSystem",
         "imageCount": 0,
@@ -328,14 +433,17 @@
         "path": "/back-to-the-past",
         "title": "Back To The Past PV",
         "video": "https://youtu.be/lwVbI44llqI",
-        "description": "An individual promotional video for a conceptual 3D open-world exploration game featuring time travel mechanics. Modelled in Blender and edited with DaVinci Resolve.",
+        "description": "An individual promotional video for a conceptual 3D open-world exploration game with time travel mechanics, including original 3D modelling and video editing.",
         "content": [
-            "Individual project; promotional video for a conceptual 3D open-world game",
-            "Features time travel mechanics concept",
-            "3D modelling done in Blender; edited with DaVinci Resolve"
+            "Individual promotional video for a conceptual 3D open-world game",
+            "Features a time travel mechanics concept",
+            "Created the 3D models and edited the video"
         ],
         "img": "BackToThePast.png",
-        "tools": ["3D Blender", "Davinci Resolve"],
+        "tools": [
+            "3D Blender",
+            "Davinci Resolve"
+        ],
         "languages": [],
         "gallery": "BackToThePast",
         "imageCount": 6,
@@ -345,12 +453,14 @@
         "path": "/cobra-maneuver",
         "title": "Cobra Maneuver",
         "video": "https://youtu.be/mwkN7_QfB78",
-        "description": "An individual 3D animation of the Cobra maneuver, created with 3DS Max.",
+        "description": "An individual 3D animation of the Cobra Maneuver.",
         "content": [
-            "Individual project; 3D animation created with 3DS Max"
+            "Individual 3D animation project"
         ],
         "img": "CobraManeuver.png",
-        "tools": ["3DS Max"],
+        "tools": [
+            "3DS Max"
+        ],
         "languages": [],
         "gallery": "CobraManeuver",
         "imageCount": 0,

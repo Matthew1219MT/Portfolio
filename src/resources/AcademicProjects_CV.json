@@ -1,0 +1,436 @@
+[
+    {
+        "path": "/Connie",
+        "title": "Connie - AI-mentor",
+        "video": "",
+        "description": "AI mentor improving youth access to community arts, built with a real client.",
+        "content": [
+            "Engineered system prompts and Django logic enabling 4 event features, from route planning to calendar export",
+            "Merged 3 authored PRs and reviewed 2 teammate PRs on GitHub",
+            "Collaborated in a 6-person Agile team reporting to 2 client developers across 2 sprints"
+        ],
+        "img": "Connie.png",
+        "tools": [
+            "VS Code",
+            "GitHub",
+            "Django"
+        ],
+        "languages": [
+            "Python",
+            "JavaScript"
+        ],
+        "gallery": "Connie",
+        "imageCount": 3,
+        "date": "Aug 2026 -- Oct 2026"
+    },
+    {
+        "path": "/password-manager",
+        "title": "Password Manager",
+        "video": "",
+        "description": "Python CLI password manager applying cryptography concepts.",
+        "content": [
+            "Secured a Python CLI password vault with Argon2 slow hashing",
+            "Encrypted exported vaults with master password based re-import",
+            "Validated with Boundary Value Analysis and Attack Tree Analysis, co-developed with Claude AI"
+        ],
+        "img": "PasswordManager.png",
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "Python"
+        ],
+        "gallery": "PasswordManager",
+        "imageCount": 0,
+        "date": "Sep 2026 -- Oct 2026"
+    },
+    {
+        "path": "/ad-and-ood",
+        "title": "Anomaly Detection and Out-Of-Distribution Detection with Machine Learning",
+        "video": "",
+        "description": "Anomaly and OOD detection on CIFAR-10 with machine learning.",
+        "content": [
+            "Built anomaly and OOD detection pipelines on CIFAR-10 in Python and Jupyter",
+            "Benchmarked models with AUROC, AUPRC, precision, recall, and F1-score",
+            "Translated results into a non-technical report with contrast data mining and visualisations"
+        ],
+        "img": "ADOOD.png",
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "Python"
+        ],
+        "gallery": "ADOOD",
+        "imageCount": 5,
+        "date": "Sep 2026 -- Oct 2026"
+    },
+    {
+        "path": "/covid19-outcome-prediction",
+        "title": "COVID-19 Outcome Prediction",
+        "video": "",
+        "description": "ML comparison predicting COVID-19 hospitalisation and mortality.",
+        "content": [
+            "Compared 6 ML models, including a neural network, on 600k+ patient records",
+            "Mitigated class imbalance with SMOTE and class weighting",
+            "Optimised hyperparameters via grid search and nested cross-validation"
+        ],
+        "img": "Covid19.png",
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "Python"
+        ],
+        "gallery": "Covid19",
+        "imageCount": 2,
+        "date": "Apr 2026 -- May 2026"
+    },
+    {
+        "path": "/shared-whiteboard",
+        "title": "Shared Whiteboard",
+        "video": "",
+        "description": "Concurrent multi-user whiteboard in Java.",
+        "content": [
+            "Architected a concurrent multi-user whiteboard with Java RMI",
+            "Delivered free-draw, shapes, text, and a live chatroom in a Swing GUI",
+            "Implemented host approval and kick controls with JSON persistence"
+        ],
+        "img": "SWB.png",
+        "tools": [
+            "IntelliJ IDEA"
+        ],
+        "languages": [
+            "Java"
+        ],
+        "gallery": "SWB",
+        "imageCount": 3,
+        "date": "Apr 2026 -- May 2026"
+    },
+    {
+        "path": "/multi-threaded-dictionary-server",
+        "title": "Multi-threaded Dictionary Server",
+        "video": "https://youtu.be/jHEP-eSufVw",
+        "description": "Concurrent TCP dictionary server in Java.",
+        "content": [
+            "Designed a multi-threaded TCP dictionary server in Java",
+            "Guaranteed thread safety with ReentrantReadWriteLock and background flush threads",
+            "Verified with JUnit 5 and serialised data with Gson"
+        ],
+        "img": "MTDS.png",
+        "tools": [
+            "IntelliJ IDEA"
+        ],
+        "languages": [
+            "Java"
+        ],
+        "gallery": "MTDS",
+        "imageCount": 5,
+        "date": "Mar 2026 -- Apr 2026"
+    },
+    {
+        "path": "/eldercare",
+        "title": "ElderCare",
+        "video": "https://youtu.be/cnPtKdZTn8k",
+        "description": "Android eldercare app with an AI doctor feature.",
+        "content": [
+            "Led a 6-person team building an Android eldercare app in Java",
+            "Integrated the ChatGPT API into the backend for AI doctor responses",
+            "Coordinated teamwork and version control through GitHub"
+        ],
+        "img": "ElderCare.png",
+        "tools": [
+            "Android Studio"
+        ],
+        "languages": [
+            "Java"
+        ],
+        "gallery": "ElderCare",
+        "imageCount": 9,
+        "date": "Jul 2025 -- Oct 2025"
+    },
+    {
+        "path": "/urban-tree-explorer",
+        "title": "Urban Tree Explorer",
+        "video": "https://youtu.be/lIl9eFFzvNU",
+        "description": "WordPress site delivered with SCRUM.",
+        "content": [
+            "Shipped a WordPress site across 3 two-week sprints in a team of 5",
+            "Conducted sprint planning, reviews, and retrospectives each sprint",
+            "Documented the full development lifecycle"
+        ],
+        "img": "UrbanTreeExplorer.png",
+        "tools": [
+            "WordPress"
+        ],
+        "languages": [],
+        "gallery": "UrbanTreeExplorer",
+        "imageCount": 4,
+        "date": "Mar 2025 -- Jun 2025"
+    },
+    {
+        "path": "/web-RTC",
+        "title": "Online Broadcast System",
+        "video": "",
+        "description": "Browser-based live video monitoring with WebRTC.",
+        "content": [
+            "Spearheaded a WebRTC live video monitoring system as main contributor in a team of 2",
+            "Crafted the UI layouts and frontend broadcast logic in JavaScript",
+            "Added viewer counter, recording, motion detection, and face tracking"
+        ],
+        "img": "WebRTC.png",
+        "tools": [
+            "VS Code",
+            "GitHub"
+        ],
+        "languages": [
+            "JavaScript",
+            "HTML"
+        ],
+        "gallery": "WebRTC",
+        "imageCount": 4,
+        "date": "Oct 2023 -- Dec 2023"
+    },
+    {
+        "path": "/drive-master",
+        "title": "Master Drive - 3D Multiplayer Driving Simulator",
+        "video": "https://youtu.be/9y5wvXi1GQc",
+        "description": "3D online multiplayer driving simulator for traffic safety.",
+        "content": [
+            "Headed a 3-person team building a 4-player online driving simulator in Godot",
+            "Structured the game framework with MVVM architecture in GDScript",
+            "Developed game logic, player character, UI, and HUD"
+        ],
+        "img": "DriveMaster.png",
+        "tools": [
+            "Godot",
+            "GitHub"
+        ],
+        "languages": [
+            "GDScript"
+        ],
+        "gallery": "DriveMaster",
+        "imageCount": 9,
+        "date": "Aug 2023 -- May 2024"
+    },
+    {
+        "path": "/study-war",
+        "title": "Study War - 2D Roguelike Game",
+        "video": "https://youtu.be/atSQNczFSOY",
+        "description": "2D roguelike game in Unity.",
+        "content": [
+            "Directed a 4-person team building a 2D roguelike in Unity and C#",
+            "Devised a procedural random map generation algorithm",
+            "Programmed the game framework, player character, environment, and UI"
+        ],
+        "img": "StudyWar.png",
+        "tools": [
+            "Unity",
+            "VS Code"
+        ],
+        "languages": [
+            "C#"
+        ],
+        "gallery": "StudyWar",
+        "imageCount": 9,
+        "date": "Jan 2023 -- May 2023"
+    },
+    {
+        "path": "/toohak-3D",
+        "title": "Toohak 3D",
+        "video": "https://youtu.be/6NQb9DSFOFw",
+        "description": "Interactive 3D quiz game in Unity.",
+        "content": [
+            "Created an interactive 3D quiz game in Unity and C# with a team of 4",
+            "Owned the system design and game scenery design"
+        ],
+        "img": "Toohak3D.png",
+        "tools": [
+            "Unity",
+            "VS Code"
+        ],
+        "languages": [
+            "C#"
+        ],
+        "gallery": "Toohak3D",
+        "imageCount": 7,
+        "date": "Jan 2023 -- May 2023"
+    },
+    {
+        "path": "/online-lost-and-found-system",
+        "title": "Online Lost and Found System",
+        "video": "https://youtu.be/-CQODUmZ-Hs",
+        "description": "Full-stack lost and found web app.",
+        "content": [
+            "Constructed a solo full-stack lost and found web app with PHP and MySQL",
+            "Enabled login, item posting, and search with HTML, CSS, and JavaScript"
+        ],
+        "img": "LostAndFound.png",
+        "tools": [
+            "VS Code"
+        ],
+        "languages": [
+            "HTML",
+            "CSS",
+            "PHP",
+            "MySQL",
+            "JavaScript"
+        ],
+        "gallery": "LostAndFound",
+        "imageCount": 0,
+        "date": "Oct 2022 -- Dec 2022"
+    },
+    {
+        "path": "/library-admin-system",
+        "title": "Library Management System",
+        "video": "https://youtu.be/8bH0QCbVa1Y",
+        "description": "CRUD library management system in Java.",
+        "content": [
+            "Wrote full CRUD book management in Java with OOP",
+            "Managed borrow, return, and reserve status with title search and sorting"
+        ],
+        "img": "LibraryManagementSystem.png",
+        "tools": [
+            "Eclipse"
+        ],
+        "languages": [
+            "Java"
+        ],
+        "gallery": "LibraryManagementSystem",
+        "imageCount": 0,
+        "date": "Nov 2022 -- Dec 2022"
+    },
+    {
+        "path": "/assistive-device-development-for-SMA-children",
+        "title": "Assistive Device for SMA Children",
+        "video": "https://youtu.be/b9GsPJplkHM",
+        "description": "Joy-Con adaptor for a child with SMA.",
+        "content": [
+            "Prototyped a Switch Joy-Con adaptor with Arduino for a child with SMA in a team of 4",
+            "Modelled the adaptor in 3D with Blender"
+        ],
+        "img": "SMA.png",
+        "tools": [
+            "3D Blender"
+        ],
+        "languages": [],
+        "gallery": "SMA",
+        "imageCount": 7,
+        "date": "Sep 2020 -- Nov 2020"
+    },
+    {
+        "path": "/ios-calculator",
+        "title": "IOS Calculator",
+        "video": "https://youtu.be/UclXB3TGCxk",
+        "description": "iOS multi-base calculator in Swift.",
+        "content": [
+            "Coded an iOS calculator in Swift for binary, decimal, and hexadecimal",
+            "Supported random value generation"
+        ],
+        "img": "IOSCalculator.png",
+        "tools": [
+            "XCode"
+        ],
+        "languages": [
+            "Swift"
+        ],
+        "gallery": "IOSCalculator",
+        "imageCount": 0,
+        "date": "Sep 2022 -- Oct 2022"
+    },
+    {
+        "path": "/android-app",
+        "title": "Sandbox Mini Game",
+        "video": "https://youtu.be/JPNvxK6WqMM",
+        "description": "Android sandbox mini game in Java.",
+        "content": [
+            "Assembled an Android sandbox game in Java with icon insert and delete",
+            "Animated icons that move and bounce on edge collision"
+        ],
+        "img": "AndroidApp.png",
+        "tools": [
+            "Android Studio"
+        ],
+        "languages": [
+            "Java"
+        ],
+        "gallery": "AndroidApp",
+        "imageCount": 0,
+        "date": "Nov 2022 -- Dec 2022"
+    },
+    {
+        "path": "/infinity-glass",
+        "title": "Infinity-glass PV",
+        "video": "https://youtu.be/WjW6a7ZGf7A",
+        "description": "Promotional video for a conceptual product.",
+        "content": [
+            "Produced a group promotional video for the conceptual Infinity Glass",
+            "Edited the footage in DaVinci Resolve"
+        ],
+        "img": "InfinityGlasses.png",
+        "tools": [
+            "Davinci Resolve"
+        ],
+        "languages": [],
+        "gallery": "InfinityGlasses",
+        "imageCount": 0,
+        "date": "Sep 2021 -- Dec 2021"
+    },
+    {
+        "path": "/welfare-system-of-europe",
+        "title": "Welfare System of Europe",
+        "video": "https://youtu.be/5QMFE3sMulw",
+        "description": "Presentation video on Western European welfare.",
+        "content": [
+            "Analysed the Western European welfare system in a 4-person presentation video",
+            "Finalised the edit in DaVinci Resolve"
+        ],
+        "img": "WelfareSystem.png",
+        "tools": [
+            "Davinci Resolve"
+        ],
+        "languages": [],
+        "gallery": "WelfareSystem",
+        "imageCount": 0,
+        "date": "Apr 2023 -- May 2023"
+    },
+    {
+        "path": "/back-to-the-past",
+        "title": "Back To The Past PV",
+        "video": "https://youtu.be/lwVbI44llqI",
+        "description": "Promotional video for a conceptual time travel game.",
+        "content": [
+            "Conceptualised a 3D open-world time travel game in a promotional video",
+            "Sculpted 3D models in Blender and edited in DaVinci Resolve"
+        ],
+        "img": "BackToThePast.png",
+        "tools": [
+            "3D Blender",
+            "Davinci Resolve"
+        ],
+        "languages": [],
+        "gallery": "BackToThePast",
+        "imageCount": 6,
+        "date": "Jan 2022 -- May 2022"
+    },
+    {
+        "path": "/cobra-maneuver",
+        "title": "Cobra Maneuver",
+        "video": "https://youtu.be/mwkN7_QfB78",
+        "description": "3D animation of the Cobra Maneuver.",
+        "content": [
+            "Rendered a 3D animation of the Cobra Maneuver with 3DS Max"
+        ],
+        "img": "CobraManeuver.png",
+        "tools": [
+            "3DS Max"
+        ],
+        "languages": [],
+        "gallery": "CobraManeuver",
+        "imageCount": 0,
+        "date": "Sep 2022 -- Dec 2022"
+    }
+]
